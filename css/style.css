@@ -1,0 +1,834 @@
+/* ============================= */
+/* RESET */
+/* ============================= */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #121212;
+    color: white;
+}
+
+/* ============================= */
+/* CONTAINER */
+/* ============================= */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* ============================= */
+/* NAVBAR */
+/* ============================= */
+.navbar {
+    background: #2b2b2b;
+    /* padding: 25px 0; */
+    height: 90px;
+    border-bottom: 1px solid rgba(212,175,55,0.08);
+}
+
+.nav-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    color: #d4af37;
+}
+
+.menu-toggle {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+/* ============================= */
+/* HERO SECTION */
+/* ============================= */
+.hero {
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+        url('../images/hero.webp');
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-content {
+    text-align: left;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    opacity: 0.85;
+}
+
+/* ============================= */
+/* CATEGORIES SECTION */
+/* ============================= */
+.categories {
+    padding: 80px 0;
+    background: #181818;
+}
+
+.category-grid {
+    display: grid;
+    gap: 30px;
+}
+
+/* CATEGORY CARD */
+.category-card {
+    height: 220px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: 0.3s ease;
+    background-size: cover;
+    background-position: center;
+}
+
+/* DARK OVERLAY */
+.category-card::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.55);
+    transition: 0.3s;
+}
+
+.category-card h2 {
+    position: relative;
+    z-index: 2;
+}
+
+.category-card:hover {
+    transform: translateY(-5px);
+}
+
+.category-card:hover::before {
+    background: rgba(0, 0, 0, 0.35);
+}
+
+/* ============================= */
+/* CATEGORY IMAGES */
+/* ============================= */
+.category-card.whiskey {
+    background-image: url('../images/whiskey.webp');
+}
+
+.category-card.wine {
+    background-image: url('../images/wine.webp');
+}
+
+.category-card.beer {
+    background-image: url('../images/beer.webp');
+}
+
+.category-card.vodka {
+    background-image: url('../images/vodka.webp');
+}
+
+.category-card.rum {
+    background-image: url('../images/rum.webp');
+}
+
+/* ============================= */
+/* RESPONSIVE DESIGN */
+/* ============================= */
+
+/* Tablets */
+@media (min-width: 768px) {
+    .category-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+/* Large Screens */
+@media (min-width: 1200px) {
+    .category-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .hero h1 {
+        font-size: 64px;
+    }
+}
+
+/* Mobile Navigation */
+@media (max-width: 768px) {
+    .nav-links {
+        position: absolute;
+        top: 60px;
+        right: 0;
+        background: #1e1e1e;
+        flex-direction: column;
+        width: 200px;
+        display: none;
+        padding: 20px;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+
+    .hero-content {
+        text-align: center;
+    }
+}
+
+/* ============================= */
+/* PRODUCTS PAGE */
+/* ============================= */
+
+.products {
+    padding: 80px 0;
+}
+
+.products h1 {
+    margin-bottom: 40px;
+    font-size: 36px;
+}
+
+.product-grid {
+    display: grid;
+    gap: 30px;
+}
+
+.product-card {
+    background: #1e1e1e;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.product-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+}
+
+@media (min-width: 768px) {
+    .product-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+/* ============================= */
+/* IMPROVED PRODUCT CARDS */
+/* ============================= */
+/* ============================= */
+/* PRODUCT GRID */
+/* ============================= */
+
+.product-grid {
+    display: grid;
+    gap: 35px;
+}
+
+/* ============================= */
+/* PRODUCT CARD */
+/* ============================= */
+
+.product-card {
+    background: linear-gradient(145deg, #1e1e1e, #242424);
+    border-radius: 18px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 0.35s ease;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.45);
+    display: flex;
+    flex-direction: column;
+    min-height: 480px; /* Increased height */
+}
+
+.product-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 18px 40px rgba(0, 0, 0, 0.65);
+}
+
+/* ============================= */
+/* IMAGE */
+/* ============================= */
+
+.product-card img {
+    width: 100%;
+    height: 360px;          /* Taller image */
+    object-fit: cover;      /* Full size fill */
+    transition: transform 0.4s ease;
+}
+
+.product-card:hover img {
+    transform: scale(1.05);
+}
+
+/* ============================= */
+/* TEXT CONTENT */
+/* ============================= */
+
+.product-card h3 {
+    font-size: 20px;
+    margin: 20px 20px 8px;
+}
+
+.product-card p {
+    margin: 0 20px 20px;
+    font-size: 17px;
+    color: #d4af37;
+    font-weight: 600;
+}/* ============================= */
+/* MODAL OVERLAY */
+/* ============================= */
+
+.modal {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.85);
+    backdrop-filter: blur(10px);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    padding: 60px;
+    z-index: 1000;
+}
+
+.modal.active {
+    display: flex;
+}
+
+/* ============================= */
+/* MODAL CONTAINER */
+/* ============================= */
+
+.modal-content {
+    background: linear-gradient(145deg, #1b1b1b, #252525);
+    border-radius: 24px;
+    width: 100%;
+    max-width: 1100px;
+    height: 85vh;
+    box-shadow: 0 40px 80px rgba(0, 0, 0, 0.8);
+    animation: modalEnter 0.35s ease;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+}
+
+/* ============================= */
+/* IMAGE SECTION */
+/* ============================= */
+
+.modal-content img {
+    width: 50%;
+    height: 100%;
+    object-fit: contain;
+    background: #111;
+    padding: 60px;
+}
+/* ============================= */
+/* RIGHT CONTENT WRAPPER */
+/* ============================= */
+
+.modal-content .modal-info {
+    width: 50%;
+    height: 100%;              /* IMPORTANT */
+    padding: 0 60px;           /* remove top/bottom padding */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   /* vertical center */
+    align-items: flex-start;   /* keep text left aligned */
+}
+
+.modal-content .modal-info > * {
+    margin-bottom: 18px;
+}
+
+/* ============================= */
+/* TEXT STYLING */
+/* ============================= */
+
+.modal-content h2 {
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+#modal-price {
+    font-size: 28px;
+    font-weight: 700;
+    color: #d4af37;
+}
+
+#modal-size {
+    font-size: 18px;
+    opacity: 0.8;
+}
+
+#modal-description {
+    font-size: 18px;
+    line-height: 1.8;
+    opacity: 0.95;
+}
+
+/* ============================= */
+/* CLOSE BUTTON */
+/* ============================= */
+
+.close-btn {
+    position: absolute;
+    top: 25px;
+    right: 30px;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    cursor: pointer;
+    transition: 0.3s;
+    z-index: 20;
+}
+
+.close-btn:hover {
+    background: #d4af37;
+    color: black;
+}
+
+/* ============================= */
+/* MOBILE RESPONSIVE */
+/* ============================= */
+
+@media (max-width: 900px) {
+
+    .modal {
+        padding: 20px;
+    }
+
+    .modal-content {
+        flex-direction: column;
+        height: auto;
+        max-height: 90vh;
+        overflow-y: auto;
+    }
+
+    .modal-content img {
+        width: 100%;
+        height: 320px;
+        padding: 30px;
+    }
+
+    .modal-content .modal-info {
+        width: 100%;
+        padding: 40px 30px;
+    }
+}
+
+/* ============================= */
+/* ANIMATION */
+/* ============================= */
+
+@keyframes modalEnter {
+    from {
+        opacity: 0;
+        transform: translateY(40px) scale(0.95);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+
+/* ============================= */
+/* MOBILE NAV */
+/* ============================= */
+
+@media (max-width: 768px) {
+
+    .nav-links {
+        position: absolute;
+        top: 70px;
+        right: 0;
+        background: #1e1e1e;
+        flex-direction: column;
+        width: 240px;
+        padding: 25px;
+        border-radius: 0 0 0 16px;
+
+        transform: translateX(100%);
+        opacity: 0;
+        transition: transform 0.35s ease, opacity 0.3s ease;
+    }
+
+    .nav-links.active {
+        transform: translateX(0);
+        opacity: 1;
+    }
+
+    .nav-links li {
+        margin-bottom: 15px;
+    }
+
+    .menu-toggle {
+        display: block;
+        transition: transform 0.3s ease;
+    }
+
+    .menu-toggle.active {
+        transform: rotate(90deg);
+    }
+}
+
+/* ============================= */
+/* CONTACT PAGE */
+/* ============================= */
+
+.contact-section {
+    padding: 100px 0;
+    background: #181818;
+}
+
+.contact-grid {
+    display: grid;
+    gap: 50px;
+}
+
+.contact-info h1 {
+    font-size: 42px;
+    margin-bottom: 30px;
+}
+
+.contact-info p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.whatsapp-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 14px 28px;
+    background: #25D366;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.whatsapp-btn:hover {
+    background: #1ebe5d;
+}
+
+.contact-map {
+    min-height: 400px;
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+/* Desktop layout */
+@media (min-width: 900px) {
+    .contact-grid {
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+    }
+}
+
+/* ============================= */
+/* FLOATING WHATSAPP BUTTON */
+/* ============================= */
+
+.floating-whatsapp {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    width: 60px;
+    height: 60px;
+    background: #25D366;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 26px;
+    text-decoration: none;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+    z-index: 999;
+    transition: all 0.3s ease;
+}
+
+.floating-whatsapp:hover {
+    transform: scale(1.1);
+    background: #1ebe5d;
+}
+
+/* ============================= */
+/* FOOTER */
+/* ============================= */
+
+.footer {
+    background: #111;
+    padding-top: 60px;
+    color: #ccc;
+}
+
+.footer-content {
+    display: grid;
+    gap: 40px;
+    padding-bottom: 40px;
+}
+
+.footer h3 {
+    color: white;
+    margin-bottom: 15px;
+}
+
+.footer h4 {
+    color: #d4af37;
+    margin-bottom: 15px;
+}
+
+.footer a {
+    display: block;
+    text-decoration: none;
+    color: #ccc;
+    margin-bottom: 10px;
+    transition: 0.3s;
+}
+
+.footer a:hover {
+    color: white;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 20px;
+    background: #0a0a0a;
+    font-size: 14px;
+}
+
+/* Desktop Layout */
+@media (min-width: 900px) {
+    .footer-content {
+        grid-template-columns: 2fr 1fr 1fr;
+    }
+}
+
+/* ============================= */
+/* AGE VERIFICATION */
+/* ============================= */
+
+.age-popup {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.95);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2000;
+}
+
+.age-box {
+    background: #1e1e1e;
+    padding: 50px;
+    border-radius: 20px;
+    text-align: center;
+    max-width: 400px;
+}
+
+.age-box h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.age-box p {
+    margin-bottom: 30px;
+    opacity: 0.8;
+}
+
+.age-buttons button {
+    padding: 12px 25px;
+    margin: 5px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+#age-yes {
+    background: #d4af37;
+    color: black;
+}
+
+#age-no {
+    background: #555;
+    color: white;
+}
+
+#age-no:hover {
+    background: red;
+}
+
+/* ============================= */
+/* PAGE FADE ANIMATION */
+/* ============================= */
+
+body {
+    opacity: 0;
+    transition: opacity 0.4s ease;
+}
+
+body.loaded {
+    opacity: 1;
+}
+
+/* ============================= */
+/* SCROLL TO TOP */
+/* ============================= */
+
+.scroll-top {
+    position: fixed;
+    bottom: 100px;
+    right: 25px;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background: #d4af37;
+    color: black;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    display: none;
+    z-index: 999;
+    transition: 0.3s ease;
+}
+
+.scroll-top:hover {
+    transform: scale(1.1);
+}
+
+/* ============================= */
+/* LOGO SYSTEM */
+/* ============================= */
+/* ============================= */
+/* LOGO SYSTEM */
+/* ============================= */
+/* ============================= */
+/* LOGO SYSTEM */
+/* ============================= */
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.logo img {
+    width: 260px;   /* desktop size */
+    height: auto;
+    display: block;
+}
+
+/* ============================= */
+/* MOBILE NAVBAR */
+/* ============================= */
+
+@media (max-width: 768px) {
+
+    .navbar {
+        height: 85px;
+    }
+
+    .nav-content {
+        display: flex;
+        align-items: center;
+        justify-content: center;   /* center logo */
+        position: relative;
+        height: 100%;
+    }
+
+    .logo img {
+        width: 220px;   /* bigger logo on mobile */
+    }
+
+    /* Hamburger on RIGHT */
+    .menu-toggle {
+        position: absolute;
+        right: 20px;
+        display: block;
+        font-size: 26px;
+        cursor: pointer;
+    }
+
+    /* Slide menu from right */
+    .nav-links {
+        position: absolute;
+        top: 85px;
+        right: 0;
+        background: #1e1e1e;
+        flex-direction: column;
+        width: 240px;
+        padding: 25px;
+        transform: translateX(100%);
+        opacity: 0;
+        transition: transform 0.35s ease, opacity 0.3s ease;
+    }
+
+    .nav-links.active {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}

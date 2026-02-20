@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "name": "Classic Whiskey",
+    "category": "whiskey",
+    "price": 950,
+    "size": "750ml",
+    "image": "images/whiskey.webp",
+    "description": "Smooth blended whiskey."
+  },
+  {
+    "id": 2,
+    "name": "Premium Red Wine",
+    "category": "wine",
+    "price": 1200,
+    "size": "750ml",
+    "image": "images/wine.webp",
+    "description": "Rich and bold red wine."
+  },
+  {
+    "id": 3,
+    "name": "Strong Beer",
+    "category": "beer",
+    "price": 150,
+    "size": "650ml",
+    "image": "images/beer.webp",
+    "description": "Refreshing strong beer."
+  }
+]

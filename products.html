@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Products - Mapusa Wine Store</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/ico" href="images/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- AGE VERIFICATION -->
+    <div class="age-popup" id="age-popup">
+        <div class="age-box">
+            <h2>Are You 18+?</h2>
+            <p>You must be of legal drinking age to enter this website.</p>
+
+            <div class="age-buttons">
+                <button id="age-yes">Yes, I am 18+</button>
+                <button id="age-no">No</button>
+            </div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="images/logo.png" alt="Lanjekar Wines">
+                    </a>
+                </div>
+                <div class="menu-toggle" id="menu-toggle">☰</div>
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- PRODUCTS SECTION -->
+    <section class="products">
+        <div class="container">
+            <h1 id="category-title"></h1>
+            <div class="product-grid" id="product-grid"></div>
+        </div>
+    </section>
+
+
+    <!-- PRODUCT MODAL -->
+    <div class="modal" id="product-modal">
+        <div class="modal-content">
+
+            <span class="close-btn" id="close-modal">&times;</span>
+
+            <!-- LEFT IMAGE -->
+            <img id="modal-image" src="" alt="">
+
+            <!-- RIGHT CONTENT -->
+            <div class="modal-info">
+                <h2 id="modal-name"></h2>
+                <p id="modal-price"></p>
+                <p id="modal-size"></p>
+                <p id="modal-description"></p>
+            </div>
+
+        </div>
+    </div>
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container footer-content">
+
+            <div class="footer-left">
+                <h3>Mapusa Wine Store</h3>
+                <p>Premium wines, whiskey, beer & more in Mapusa, Goa.</p>
+            </div>
+
+            <div class="footer-middle">
+                <h4>Quick Links</h4>
+                <a href="index.html">Home</a>
+                <a href="contact.html">Contact</a>
+            </div>
+
+            <div class="footer-right">
+                <h4>Contact</h4>
+                <p>📍 Mapusa, Goa</p>
+                <p>📞 +91 9876543210</p>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            © 2024 Mapusa Wine Store. All Rights Reserved.
+        </div>
+    </footer>
+    <!-- FLOATING WHATSAPP BUTTON -->
+    <a href="https://wa.me/919876543210" class="floating-whatsapp" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <button class="scroll-top" id="scroll-top">↑</button>
+    <script src="js/script.js"></script>
+    <script src="js/products.js"></script>
+</body>
+
+</html>

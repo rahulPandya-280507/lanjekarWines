@@ -151,23 +151,23 @@ body {
 /* CATEGORY IMAGES */
 /* ============================= */
 .category-card.whiskey {
-    background-image: url('../images/whiskey.webp');
+    background-image: url('../images/whiskey/whiskey.webp');
 }
 
 .category-card.wine {
-    background-image: url('../images/wine.webp');
+    background-image: url('../images/wine/wine.webp');
 }
 
 .category-card.beer {
-    background-image: url('../images/beer.webp');
+    background-image: url('../images/beer/beer.webp');
 }
 
 .category-card.vodka {
-    background-image: url('../images/vodka.webp');
+    background-image: url('../images/vodka/vodka.webp');
 }
 
 .category-card.rum {
-    background-image: url('../images/rum.webp');
+    background-image: url('../images/rum/rum.webp');
 }
 
 /* ============================= */

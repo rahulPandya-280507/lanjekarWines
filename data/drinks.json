@@ -5,7 +5,7 @@
     "category": "whiskey",
     "price": 950,
     "size": "750ml",
-    "image": "images/whiskey.webp",
+    "image": "images/whiskey/whiskey.webp",
     "description": "Smooth blended whiskey."
   },
   {
@@ -14,7 +14,7 @@
     "category": "wine",
     "price": 1200,
     "size": "750ml",
-    "image": "images/wine.webp",
+    "image": "images/wine/wine.webp",
     "description": "Rich and bold red wine."
   },
   {

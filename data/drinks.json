@@ -25,7 +25,7 @@
     "strength":"strong",
     "price": 150,
     "size": "650ml",
-    "image": "images/beer.webp",
+    "image": "images/beer/beer.webp",
     "description": "Refreshing strong beer."
   },
   {
@@ -36,7 +36,7 @@
     "strength":"mild",
     "price": 150,
     "size": "650ml",
-    "image": "images/beer.webp",
+    "image": "images/beer/beer.webp",
     "description": "Refreshing strong beer."
   }
 ]

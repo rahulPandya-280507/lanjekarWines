@@ -45,6 +45,20 @@
     <section class="products">
         <div class="container">
             <h1 id="category-title"></h1>
+            <!-- BEER FILTERS (ONLY SHOWS FOR BEER) -->
+            <div class="beer-filters" id="beer-filters" style="display: none;">
+                <select id="filter-type">
+                    <option value="all">All Types</option>
+                    <option value="can">Can</option>
+                    <option value="pint">Pint</option>
+                </select>
+
+                <select id="filter-strength">
+                    <option value="all">All Strengths</option>
+                    <option value="strong">Strong</option>
+                    <option value="mild">Mild</option>
+                </select>
+            </div>
             <div class="product-grid" id="product-grid"></div>
         </div>
     </section>

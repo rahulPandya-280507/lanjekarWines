@@ -832,3 +832,18 @@ body.loaded {
         opacity: 1;
     }
 }
+
+.beer-filters {
+    margin-bottom: 40px;
+    display: flex;
+    gap: 20px;
+}
+
+.beer-filters select {
+    padding: 10px 15px;
+    background: #1e1e1e;
+    color: white;
+    border: 1px solid #333;
+    border-radius: 6px;
+    cursor: pointer;
+}

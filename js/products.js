@@ -17,6 +17,12 @@ const modalPrice = document.getElementById("modal-price");
 const modalSize = document.getElementById("modal-size");
 const modalDescription = document.getElementById("modal-description");
 
+const beerFilters = document.getElementById("beer-filters");
+const filterType = document.getElementById("filter-type");
+const filterStrength = document.getElementById("filter-strength");
+
+let allProducts = []; // store category products
+
 
 // =============================
 // SET CATEGORY TITLE
@@ -40,12 +46,67 @@ function openModal(product) {
     modalDescription.textContent = product.description;
 
     modal.classList.add("active");
-    document.body.style.overflow = "hidden"; // lock background scroll
+    document.body.style.overflow = "hidden";
 }
 
 function closeModal() {
     modal.classList.remove("active");
-    document.body.style.overflow = "auto"; // restore scroll
+    document.body.style.overflow = "auto";
+}
+
+
+// =============================
+// RENDER PRODUCTS
+// =============================
+
+function renderProducts(products) {
+
+    productGrid.innerHTML = "";
+
+    if (products.length === 0) {
+        productGrid.innerHTML = "<p>No products found.</p>";
+        return;
+    }
+
+    products.forEach(product => {
+
+        const card = document.createElement("div");
+        card.classList.add("product-card");
+
+        card.innerHTML = `
+            <img src="${product.image}" alt="${product.name}">
+            <h3>${product.name}</h3>
+            <p>₹ ${product.price}</p>
+        `;
+
+        card.addEventListener("click", () => openModal(product));
+
+        productGrid.appendChild(card);
+    });
+}
+
+
+// =============================
+// APPLY BEER FILTERS
+// =============================
+
+function applyBeerFilters() {
+
+    const selectedType = filterType.value;
+    const selectedStrength = filterStrength.value;
+
+    const filtered = allProducts.filter(product => {
+
+        const typeMatch =
+            selectedType === "all" || product.type === selectedType;
+
+        const strengthMatch =
+            selectedStrength === "all" || product.strength === selectedStrength;
+
+        return typeMatch && strengthMatch;
+    });
+
+    renderProducts(filtered);
 }
 
 
@@ -57,32 +118,25 @@ fetch("data/drinks.json")
     .then(response => response.json())
     .then(data => {
 
-        const filteredProducts = data.filter(
+        allProducts = data.filter(
             item => item.category === category
         );
 
-        if (filteredProducts.length === 0) {
+        if (allProducts.length === 0) {
             productGrid.innerHTML = "<p>No products available.</p>";
             return;
         }
 
-        filteredProducts.forEach(product => {
+        renderProducts(allProducts);
 
-            const card = document.createElement("div");
-            card.classList.add("product-card");
+        // Show filters ONLY for beer
+        if (category === "beer") {
+            beerFilters.style.display = "flex";
 
-            card.innerHTML = `
-                <img src="${product.image}" alt="${product.name}">
-                <h3>${product.name}</h3>
-                <p>₹ ${product.price}</p>
-            `;
+            filterType.addEventListener("change", applyBeerFilters);
+            filterStrength.addEventListener("change", applyBeerFilters);
+        }
 
-            card.addEventListener("click", () => {
-                openModal(product);
-            });
-
-            productGrid.appendChild(card);
-        });
     })
     .catch(error => {
         console.error("Error loading products:", error);
@@ -94,20 +148,17 @@ fetch("data/drinks.json")
 // MODAL EVENT LISTENERS
 // =============================
 
-// Close button
 closeBtn.addEventListener("click", (e) => {
     e.stopPropagation();
     closeModal();
 });
 
-// Click outside modal-content
 modal.addEventListener("click", (e) => {
     if (e.target === modal) {
         closeModal();
     }
 });
 
-// Escape key
 document.addEventListener("keydown", (e) => {
     if (e.key === "Escape" && modal.classList.contains("active")) {
         closeModal();

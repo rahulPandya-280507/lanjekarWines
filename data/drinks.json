@@ -1,42 +1,112 @@
 [
   {
     "id": 1,
-    "name": "Classic Whiskey",
-    "category": "whiskey",
-    "price": 950,
-    "size": "750ml",
-    "image": "images/whiskey/whiskey.webp",
-    "description": "Smooth blended whiskey."
+    "name": "Kingfisher",
+    "category": "beer",
+    "type":"bottle",
+    "strength":"strong",
+    "price": 110,
+    "size": "650ml",
+    "image": "images/beer/bottle/strong/kingfisher.webp",
+    "description": "strong beer."
   },
   {
     "id": 2,
-    "name": "Premium Red Wine",
-    "category": "wine",
-    "price": 1200,
-    "size": "750ml",
-    "image": "images/wine/wine.webp",
-    "description": "Rich and bold red wine."
-  },
-  {
-    "id": 3,
-    "name": "Strong Beer",
+    "name": "Amstel",
     "category": "beer",
-    "type":"can",
+    "type":"bottle",
     "strength":"strong",
     "price": 150,
     "size": "650ml",
-    "image": "images/beer/beer.webp",
+    "image": "images/beer/bottle/strong/amstel.webp",
+    "description": "strong beer."
+  },
+  {
+    "id": 3,
+    "name": "Carlsberg-strong",
+    "category": "beer",
+    "type":"bottle",
+    "strength":"strong",
+    "price": 150,
+    "size": "650ml",
+    "image": "images/beer/bottle/strong/carlsberg-elephant.webp",
     "description": "Refreshing strong beer."
   },
   {
     "id": 4,
-    "name": "Beer2",
+    "name": "Budweizer Magnum",
     "category": "beer",
-    "type":"pint",
-    "strength":"mild",
+    "type":"bottle",
+    "strength":"strong",
     "price": 150,
     "size": "650ml",
-    "image": "images/beer/beer.webp",
+    "image": "images/beer/bottle/strong/budweizer-magnum.webp",
+    "description": "Refreshing strong beer."
+  },
+  {
+    "id": 5,
+    "name": "Tuborg",
+    "category": "beer",
+    "type":"bottle",
+    "strength":"mild",
+    "price": 107,
+    "size": "650ml",
+    "image": "images/beer/bottle/mild/tuborg.webp",
+    "description": "Refreshing mild beer."
+  },
+  {
+    "id": 6,
+    "name": "Kingfisher Mild",
+    "category": "beer",
+    "type":"bottle",
+    "strength":"mild",
+    "price": 97,
+    "size": "650ml",
+    "image": "images/beer/bottle/mild/kingfisher-mild.webp",
+    "description": "Refreshing mild beer."
+  },
+  {
+    "id": 7,
+    "name": "Carlsberg Mild",
+    "category": "beer",
+    "type":"bottle",
+    "strength":"mild",
+    "price": 130,
+    "size": "650ml",
+    "image": "images/beer/bottle/mild/carlsberg-mild.webp",
+    "description": "Refreshing mild beer."
+  },
+  {
+    "id": 8,
+    "name": "Budweizer Mild",
+    "category": "beer",
+    "type":"bottle",
+    "strength":"mild",
+    "price": 130,
+    "size": "650ml",
+    "image": "images/beer/bottle/mild/budweizer-mild.webp",
+    "description": "Refreshing mild beer."
+  },
+  {
+    "id": 9,
+    "name": "Monts Mild",
+    "category": "beer",
+    "type":"bottle",
+    "strength":"mild",
+    "price": 159,
+    "size": "650ml",
+    "image": "images/beer/bottle/mild/monts.webp",
+    "description": "Refreshing mild beer."
+  },
+  {
+    "id": 10,
+    "name": "Kingfisher Ultra Mild",
+    "category": "beer",
+    "type":"bottle",
+    "strength":"mild",
+    "price": 125,
+    "size": "650ml",
+    "image": "images/beer/bottle/mild/kingfisher-ultra-mild.webp",
     "description": "Refreshing strong beer."
   }
 ]

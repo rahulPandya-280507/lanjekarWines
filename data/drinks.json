@@ -1,112 +1,112 @@
 [
-  {
-    "id": 1,
-    "name": "Kingfisher",
-    "category": "beer",
-    "type":"bottle",
-    "strength":"strong",
-    "price": 110,
-    "size": "650ml",
-    "image": "images/beer/bottle/strong/kingfisher.webp",
-    "description": "strong beer."
-  },
-  {
-    "id": 2,
-    "name": "Amstel",
-    "category": "beer",
-    "type":"bottle",
-    "strength":"strong",
-    "price": 150,
-    "size": "650ml",
-    "image": "images/beer/bottle/strong/amstel.webp",
-    "description": "strong beer."
-  },
-  {
-    "id": 3,
-    "name": "Carlsberg-strong",
-    "category": "beer",
-    "type":"bottle",
-    "strength":"strong",
-    "price": 150,
-    "size": "650ml",
-    "image": "images/beer/bottle/strong/carlsberg-elephant.webp",
-    "description": "Refreshing strong beer."
-  },
-  {
-    "id": 4,
-    "name": "Budweizer Magnum",
-    "category": "beer",
-    "type":"bottle",
-    "strength":"strong",
-    "price": 150,
-    "size": "650ml",
-    "image": "images/beer/bottle/strong/budweizer-magnum.webp",
-    "description": "Refreshing strong beer."
-  },
-  {
-    "id": 5,
-    "name": "Tuborg",
-    "category": "beer",
-    "type":"bottle",
-    "strength":"mild",
-    "price": 107,
-    "size": "650ml",
-    "image": "images/beer/bottle/mild/tuborg.webp",
-    "description": "Refreshing mild beer."
-  },
-  {
-    "id": 6,
-    "name": "Kingfisher Mild",
-    "category": "beer",
-    "type":"bottle",
-    "strength":"mild",
-    "price": 97,
-    "size": "650ml",
-    "image": "images/beer/bottle/mild/kingfisher-mild.webp",
-    "description": "Refreshing mild beer."
-  },
-  {
-    "id": 7,
-    "name": "Carlsberg Mild",
-    "category": "beer",
-    "type":"bottle",
-    "strength":"mild",
-    "price": 130,
-    "size": "650ml",
-    "image": "images/beer/bottle/mild/carlsberg-mild.webp",
-    "description": "Refreshing mild beer."
-  },
-  {
-    "id": 8,
-    "name": "Budweizer Mild",
-    "category": "beer",
-    "type":"bottle",
-    "strength":"mild",
-    "price": 130,
-    "size": "650ml",
-    "image": "images/beer/bottle/mild/budweizer-mild.webp",
-    "description": "Refreshing mild beer."
-  },
-  {
-    "id": 9,
-    "name": "Monts Mild",
-    "category": "beer",
-    "type":"bottle",
-    "strength":"mild",
-    "price": 159,
-    "size": "650ml",
-    "image": "images/beer/bottle/mild/monts.webp",
-    "description": "Refreshing mild beer."
-  },
-  {
-    "id": 10,
-    "name": "Kingfisher Ultra Mild",
-    "category": "beer",
-    "type":"bottle",
-    "strength":"mild",
-    "price": 125,
-    "size": "650ml",
-    "image": "images/beer/bottle/mild/kingfisher-ultra-mild.webp",
-    "description": "Refreshing strong beer."
-  }
+    {
+        "id":1,
+        "name":"Amstel",
+        "category":"beer",
+        "type":"bottle",
+        "strength":"strong",
+        "price":150,
+        "size":"650ml",
+        "image":"images/beer/bottle/strong/amstel-strong.webp",
+        "description":"Amstel is a smooth, well-balanced lager with a crisp taste and subtle malt sweetness. Crafted with premium ingredients, it delivers a clean, refreshing finish—perfect for effortless, everyday sophistication."
+    },
+    {
+        "id":2,
+        "name":"Kingfisher Strong",
+        "category":"beer",
+        "type":"bottle",
+        "strength":"strong",
+        "price":110,
+        "size":"650ml",
+        "image":"images/beer/bottle/strong/kingfisher-strong.webp",
+        "description":"Kingsbury Strong is a bold, full-bodied lager with a smooth malt character and a crisp, powerful finish—crafted for those who enjoy strength with refined taste."
+    },
+    {
+        "id":3,
+        "name":"Carlsberg Elephant",
+        "category":"beer",
+        "type":"bottle",
+        "strength":"strong",
+        "price":150,
+        "size":"650ml",
+        "image":"images/beer/bottle/strong/carlsberg-elephant-strong.webp",
+        "description":"Carlsberg Elephant is a strong, full-bodied lager with a rich malt depth and smooth warmth. Bold yet refined, it delivers a powerful taste experience with a clean, satisfying finish."
+    },
+    {
+        "id":4,
+        "name":"Budweizer Magnum",
+        "category":"beer",
+        "type":"bottle",
+        "strength":"strong",
+        "price":150,
+        "size":"650ml",
+        "image":"images/beer/bottle/strong/budweizer-magnum-strong.webp",
+        "description":"Budweiser Magnum is a strong, smooth lager with a rich malt character and bold finish. Crafted for a powerful yet refined taste, it delivers intensity balanced with signature smoothness."
+    },
+    {
+        "id":5,
+        "name":"Tuborg",
+        "category":"beer",
+        "type":"bottle",
+        "strength":"mild",
+        "price":107,
+        "size":"650ml",
+        "image":"images/beer/bottle/mild/tuborg-mild.webp",
+        "description":"Tuborg Mild is a smooth, easy-drinking lager with a light malt sweetness and crisp finish. Refreshing and balanced, it’s perfect for relaxed moments and effortless enjoyment."
+    },
+    {
+        "id":6,
+        "name":"Kingfisher Premium",
+        "category":"beer",
+        "type":"bottle",
+        "strength":"mild",
+        "price":97,
+        "size":"650ml",
+        "image":"images/beer/bottle/mild/kingfisher-mild.webp",
+        "description":"Kingfisher Mild is a light, refreshing lager with a smooth malt touch and crisp finish. Easy on the palate and perfectly balanced, it’s crafted for laid-back moments and effortless enjoyment."
+    },
+    {
+        "id":7,
+        "name":"Carlsberg",
+        "category":"beer",
+        "type":"bottle",
+        "strength":"mild",
+        "price":130,
+        "size":"650ml",
+        "image":"images/beer/bottle/mild/carlsberg-mild.webp",
+        "description":"Carlsberg Mild is a smooth, refreshing lager with gentle malt notes and a crisp, clean finish. Light and well-balanced, it offers an easygoing taste perfect for relaxed occasions."
+    },
+    {
+        "id":8,
+        "name":"Budweizer",
+        "category":"beer",
+        "type":"bottle",
+        "strength":"mild",
+        "price":130,
+        "size":"650ml",
+        "image":"images/beer/bottle/mild/budweizer-mild.webp",
+        "description":"Budweiser Mild is a smooth, easy-drinking lager with a light malt sweetness and clean, crisp finish. Perfectly balanced and refreshing, it’s crafted for effortless enjoyment."
+    },
+    {
+        "id":9,
+        "name":"Monts",
+        "category":"beer",
+        "type":"bottle",
+        "strength":"mild",
+        "price":159,
+        "size":"650ml",
+        "image":"images/beer/bottle/mild/monts-mild.webp",
+        "description":"Monts Mild is a light and refreshing lager with a smooth malt profile and crisp finish. Balanced and easy-drinking, it’s perfect for relaxed, everyday enjoyment."
+    },
+    {
+        "id":10,
+        "name":"Kingfisher Ultra Mild",
+        "category":"beer",
+        "type":"bottle",
+        "strength":"mild",
+        "price":125,
+        "size":"650ml",
+        "image":"images/beer/bottle/mild/kingfisher-ultra-mild.webp",
+        "description":"Kingfisher Ultra Mild is a premium, smooth lager with a light malt touch and exceptionally crisp finish. Refined and refreshing, it’s crafted for those who enjoy subtle sophistication in every sip."
+    }
 ]

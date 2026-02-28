@@ -900,7 +900,7 @@
     "id": 84,
     "name": "Amateur Recipe 52 Vodka",
     "category": "vodka",
-    "price": 0,
+    "price": 1610,
     "size": "750ml",
     "image": "images/vodka/vodka-imgs/amateur-1.webp",
     "description": "Amateur Recipe 52 is a premium Indian vodka crafted for smoothness and purity. Distilled with precision and filtered multiple times, it delivers a clean, refined taste with a crisp finish, presented in a bold matte-black bottle that reflects its modern, sophisticated character."
@@ -1017,7 +1017,7 @@
     "id": 97,
     "name": "Belvedere Vodka",
     "category": "vodka",
-    "price": 0,
+    "price": 3598,
     "size": "700ml",
     "image": "images/vodka/vodka-imgs/belvedere.webp",
     "description": "Belvedere Vodka is a premium Polish vodka crafted from 100% rye and purified water, distilled with exceptional precision for a smooth and refined character. Known for its velvety texture and balanced finish, it delivers a clean, crisp taste that reflects its heritage of quality and craftsmanship."
@@ -1080,7 +1080,7 @@
     "id": 104,
     "name": "Grey Goose Vodka",
     "category": "vodka",
-    "price": 0,
+    "price": 3500,
     "size": "750ml",
     "image": "images/vodka/vodka-imgs/grey-goose.webp",
     "description": "Grey Goose Vodka is a premium French vodka distilled and bottled in France using high-quality ingredients and meticulous craftsmanship. Known for its exceptionally smooth texture, subtle sweetness, and clean, crisp finish, it is ideal for sipping neat or elevating classic and contemporary cocktails."
@@ -1125,7 +1125,7 @@
     "id": 109,
     "name": "Jazz Blue Curacao Vodka",
     "category": "vodka",
-    "price": 0,
+    "price": 710,
     "size": "750ml",
     "image": "images/vodka/vodka-imgs/jazz-blue.webp",
     "description": "Jazz Blue Curacao Vodka is a vibrant blue-hued spirit infused with the refreshing citrus character of curaçao. Smooth and lightly sweet with bright orange zest notes, it delivers a crisp finish and adds a striking color and flavor twist to cocktails and party drinks."
@@ -1134,7 +1134,7 @@
     "id": 110,
     "name": "Juno Classic Pink Vodka",
     "category": "vodka",
-    "price": 0,
+    "price": 715,
     "size": "750ml",
     "image": "images/vodka/vodka-imgs/juno-classic-pink.webp",
     "description": "Juno Classic Pink Vodka is a stylish and vibrant spirit presented in an eye-catching frosted pink bottle. Smooth and easy-drinking, it offers a clean vodka character with a subtle fruity appeal, making it perfect for lively cocktails, party shots, and refreshing mixed drinks."
@@ -1143,7 +1143,7 @@
     "id": 111,
     "name": "Juno Premium Grain Vodka",
     "category": "vodka",
-    "price": 0,
+    "price": 715,
     "size": "750ml",
     "image": "images/vodka/vodka-imgs/juno-premium.webp",
     "description": "Juno Premium Grain Vodka is a smooth and refined spirit crafted from quality grains for a clean and balanced taste. Crisp on the palate with a subtle softness and gentle finish, it is versatile enough for classic cocktails or chilled shots, offering a straightforward yet premium vodka experience."
@@ -1170,7 +1170,7 @@
     "id": 114,
     "name": "Ketel One Vodka",
     "category": "vodka",
-    "price": 0,
+    "price": 2000,
     "size": "750ml",
     "image": "images/vodka/vodka-imgs/ketel-one.webp",
     "description": "Ketel One Vodka is a premium Dutch vodka crafted with traditional distillation methods for exceptional smoothness and clarity. Known for its crisp finish and subtle citrus notes, it is perfect for classic cocktails or enjoying neat. A refined vodka made with attention to quality and heritage."
@@ -1192,5 +1192,491 @@
     "size": "750ml",
     "image": "images/vodka/vodka-imgs/khortytsa-green-apple.webp",
     "description": "Khortytsa Green Apple Vodka combines smooth premium vodka with crisp green apple flavor. Lightly sweet with a refreshing tang, it offers a clean and vibrant taste profile. Ideal for creative cocktails or enjoying chilled for a fruity twist."
+  },
+  {
+    "id": 117,
+    "name": "Khortytsa Platinum Vodka",
+    "category": "vodka",
+    "price": 1650,
+    "size": "700ml",
+    "image": "images/vodka/vodka-imgs/khortytsa-platinum.webp",
+    "description": "Khortytsa Platinum Vodka is a premium Ukrainian vodka crafted for exceptional purity and smoothness. Distilled and filtered to deliver a crisp, clean taste with a refined finish, it is ideal for classic cocktails or enjoying chilled."
+  },
+  {
+    "id": 118,
+    "name": "Magic Moments Remix Ginger Flavoured Vodka",
+    "category": "vodka",
+    "price": 440,
+    "size": "750ml",
+    "image": "images/vodka/vodka-imgs/magic-moments-ginger.webp",
+    "description": "Magic Moments Remix Ginger Vodka blends smooth grain vodka with the warm, spicy kick of ginger. Refreshing and vibrant, it adds a bold twist to cocktails or can be enjoyed chilled for a flavorful experience."
+  },
+  {
+    "id": 119,
+    "name": "Magic Moments Remix Lemon Flavoured Vodka",
+    "category": "vodka",
+    "price": 400,
+    "size": "750ml",
+    "image": "images/vodka/vodka-imgs/magic-moments-remix.webp",
+    "description": "Magic Moments Remix Lemon Vodka offers a crisp citrus burst combined with smooth vodka. Light, zesty, and refreshing, it is perfect for summer cocktails or simple mixers."
+  },
+  {
+    "id": 120,
+    "name": "Magic Moments Remix Pink Vodka",
+    "category": "vodka",
+    "price": 440,
+    "size": "750ml",
+    "image": "images/vodka/vodka-imgs/magic-moments-remix-pink.webp",
+    "description": "Magic Moments Remix Pink Vodka features a vibrant fruity profile with a smooth finish. Playful and refreshing, it is crafted for lively parties and colorful cocktails."
+  },
+  {
+    "id": 121,
+    "name": "Magic Moments Flavours of India Thandai Vodka",
+    "category": "vodka",
+    "price": 440,
+    "size": "750ml",
+    "image": "images/vodka/vodka-imgs/magic-moments-thandai.webp",
+    "description": "Magic Moments Thandai Vodka brings together smooth vodka with the rich, aromatic flavors of traditional Indian thandai. Infused with notes of spice and sweetness, it delivers a unique and festive drinking experience."
+  },
+  {
+    "id": 122,
+    "name": "Morosha Carpathian Vodka",
+    "category": "vodka",
+    "price": 1540,
+    "size": "700ml",
+    "image": "images/vodka/vodka-imgs/morosha-carpathian.webp",
+    "description": "Morosha Carpathian Vodka is crafted using natural mineral water from the Carpathian region. Known for its soft texture and clean finish, it offers a smooth and refreshing vodka experience."
+  },
+  {
+    "id": 123,
+    "name": "Morosha Spring Vodka",
+    "category": "vodka",
+    "price": 1540,
+    "size": "700ml",
+    "image": "images/vodka/vodka-imgs/morosha-spring.webp",
+    "description": "Morosha Spring Vodka is made with pure spring water for a naturally smooth and delicate taste. Light, crisp, and refreshing, it is perfect for both neat serving and cocktails."
+  },
+  {
+    "id": 124,
+    "name": "Moskovskaya Osobaya Vodka",
+    "category": "vodka",
+    "price": 2050,
+    "size": "700ml",
+    "image": "images/vodka/vodka-imgs/moskovskaya.webp",
+    "description": "Moskovskaya Osobaya Vodka is a classic triple-distilled spirit crafted using a time-honored recipe. Crisp, clean, and exceptionally smooth, it delivers a balanced character with a refined finish, making it ideal for chilled shots or traditional vodka cocktails."
+  },
+  {
+    "id": 125,
+    "name": "Murena Imported Special Vodka",
+    "category": "vodka",
+    "price": 1350,
+    "size": "750ml",
+    "image": "images/vodka/vodka-imgs/murena.webp",
+    "description": "Murena Imported Special Vodka is produced using a meticulous 13-step filtration process to ensure superior clarity and smoothness. With a clean profile and well-rounded body, it offers a refined drinking experience suitable for sipping neat or mixing in premium cocktails."
+  },
+  {
+    "id": 126,
+    "name": "NEFT Vodka",
+    "category": "vodka",
+    "price": 4300,
+    "size": "700ml",
+    "image": "images/vodka/vodka-imgs/neft.webp",
+    "description": "NEFT Vodka is a premium Austrian vodka crafted from high-quality rye and pure alpine water. Exceptionally smooth with a crisp, clean finish, it is presented in a distinctive barrel-style container that reflects its bold, modern identity."
+  },
+  {
+    "id": 127,
+    "name": "Ochre Small Batch Peach & Cherry Vodka",
+    "category": "vodka",
+    "price": 0,
+    "size": "750ml",
+    "image": "images/vodka/vodka-imgs/ochre-peach-and-cherry.webp",
+    "description": "Ochre Small Batch Peach & Cherry Vodka blends smooth handcrafted vodka with the juicy sweetness of ripe peaches and cherries. Fruit-forward and refreshing, it offers a balanced sweetness with a clean finish, perfect for vibrant cocktails or chilled pours."
+  },
+  {
+    "id": 128,
+    "name": "Ochre Small Batch Peach & Cherry Vodka (Premium Label)",
+    "category": "vodka",
+    "price": 0,
+    "size": "750ml",
+    "image": "images/vodka/vodka-imgs/ochre-peach-and-cherry-small.webp",
+    "description": "Ochre Small Batch Peach & Cherry Vodka (Premium Label) delivers the same rich fusion of peach and cherry flavors with a smooth vodka base. Bright, aromatic, and well-balanced, it is ideal for creative mixology, refreshing cocktails, or serving over ice."
+  },
+  {
+    "id": 129,
+    "name": "Ochre Small Batch Saffron Vodka",
+    "category": "vodka",
+    "price": 0,
+    "size": "750ml",
+    "image": "images/vodka/vodka-imgs/ochre-saffron.webp",
+    "description": "Ochre Small Batch Saffron Vodka is a handcrafted spirit infused with premium saffron, offering a delicate warmth and subtle spice layered over a smooth vodka base. Elegant and aromatic, it delivers a refined finish perfect for sophisticated cocktails or sipping chilled."
+  },
+  {
+    "id": 130,
+    "name": "Off Limits Crafted Vodka",
+    "category": "vodka",
+    "price": 0,
+    "size": "750ml",
+    "image": "images/vodka/vodka-imgs/off-limits-1.webp",
+    "description": "Off Limits Crafted Vodka is a clean, contemporary spirit distilled for exceptional smoothness and clarity. Light-bodied with a crisp finish, it serves as a versatile foundation for classic cocktails or can be enjoyed neat."
+  },
+  {
+    "id": 131,
+    "name": "Off Limits Crafted Vodka (Amber Edition)",
+    "category": "vodka",
+    "price": 0,
+    "size": "750ml",
+    "image": "images/vodka/vodka-imgs/off-limits-2.webp",
+    "description": "Off Limits Crafted Vodka (Amber Edition) features a distinctive character with a smooth texture and refined depth. Balanced and approachable, it is well suited for bold mixed drinks or premium cocktail creations."
+  },
+  {
+    "id": 132,
+    "name": "Off Limits Curated Vodka Green Apple",
+    "category": "vodka",
+    "price": 0,
+    "size": "750ml",
+    "image": "images/vodka/vodka-imgs/off-limits-3.webp",
+    "description": "Off Limits Curated Vodka Green Apple blends crisp vodka with the refreshing tang of green apple. Vibrant and fruity with a clean finish, it adds a lively twist to cocktails or can be served chilled for a refreshing experience."
+  },
+  {
+    "id": 133,
+    "name": "Onegin Vodka St. Petersburg 1831",
+    "category": "vodka",
+    "price": 3275,
+    "size": "750ml",
+    "image": "images/vodka/vodka-imgs/onegin.webp",
+    "description": "Onegin Vodka St. Petersburg 1831 is a premium imported vodka inspired by classic Russian heritage. Exceptionally smooth and well-balanced, it offers a clean, velvety mouthfeel with a refined finish, ideal for sipping neat or elevating classic cocktails."
+  },
+  {
+    "id": 134,
+    "name": "Petrovka Vodka",
+    "category": "vodka",
+    "price": 1499,
+    "size": "750ml",
+    "image": "images/vodka/vodka-imgs/petrovka.webp",
+    "description": "Petrovka Vodka is a refined spirit crafted for smoothness and balance. With a clean profile and crisp finish, it offers a classic vodka experience ideal for sipping neat or elevating traditional cocktails."
+  },
+  {
+    "id": 135,
+    "name": "Russian Standard Original Vodka",
+    "category": "vodka",
+    "price": 0,
+    "size": "750ml",
+    "image": "images/vodka/vodka-imgs/pyccknn-2.webp",
+    "description": "Russian Standard Original Vodka is an authentic Russian spirit distilled using traditional methods to deliver exceptional purity and smoothness. Clean and full-bodied with a balanced finish, it is perfect for classic cocktails or chilled shots."
+  },
+  {
+    "id": 136,
+    "name": "Russian Standard Gold Vodka",
+    "category": "vodka",
+    "price": 2500,
+    "size": "750ml",
+    "image": "images/vodka/vodka-imgs/pyccknn-russian-vodka.webp",
+    "description": "Russian Standard Gold Vodka is a premium expression crafted with a refined blend and enhanced smoothness. Rich yet balanced, it offers a silky mouthfeel and elegant finish, ideal for sophisticated cocktails or neat enjoyment."
+  },
+  {
+    "id": 137,
+    "name": "Rangeela Contemporary Indian Vodka",
+    "category": "vodka",
+    "price": 1600,
+    "size": "750ml",
+    "image": "images/vodka/vodka-imgs/rangeela.webp",
+    "description": "Rangeela Contemporary Indian Vodka is a vibrant and modern spirit distilled for clarity and smoothness. Clean, crisp, and versatile, it is designed for creative cocktails or refreshing mixed drinks."
+  },
+  {
+    "id": 138,
+    "name": "Resolute Blue Vodka",
+    "category": "vodka",
+    "price": 850,
+    "size": "375ml",
+    "image": "images/vodka/vodka-imgs/resolute-blue.webp",
+    "description": "Resolute Blue Vodka is a clean and contemporary spirit crafted for smooth drinking. Light-bodied with a crisp, neutral character and a polished finish, it works perfectly in classic vodka-based cocktails or served chilled."
+  },
+  {
+    "id": 139,
+    "name": "Resolute Crystal Vodka",
+    "category": "vodka",
+    "price": 850,
+    "size": "750ml",
+    "image": "images/vodka/vodka-imgs/resolute-crystal.webp",
+    "description": "Resolute Crystal Vodka is a clean and well-balanced spirit crafted for smoothness and clarity. With a crisp mouthfeel and refined finish, it serves as a versatile base for cocktails or can be enjoyed chilled for a classic vodka experience."
+  },
+  {
+    "id": 140,
+    "name": "Resolute Pink Vodka",
+    "category": "vodka",
+    "price": 850,
+    "size": "750ml",
+    "image": "images/vodka/vodka-imgs/resolute-pink.webp",
+    "description": "Resolute Pink Vodka is a vibrant expression offering a smooth texture with a subtle fruity character. Light, refreshing, and easy-drinking, it is ideal for colorful cocktails or chilled serves."
+  },
+  {
+    "id": 141,
+    "name": "Roberto Cavalli Vodka (Black Edition)",
+    "category": "vodka",
+    "price": 0,
+    "size": "1L",
+    "image": "images/vodka/vodka-imgs/roberto-cavalli-black.webp",
+    "description": "Roberto Cavalli Vodka (Black Edition) is a luxury Italian vodka crafted with meticulous attention to purity and elegance. Silky smooth with a refined and balanced finish, it is perfect for premium cocktails or sophisticated sipping."
+  },
+  {
+    "id": 142,
+    "name": "Roberto Cavalli Vodka",
+    "category": "vodka",
+    "price": 6950,
+    "size": "750ml",
+    "image": "images/vodka/vodka-imgs/roberto-cavalli-white.webp",
+    "description": "Roberto Cavalli Vodka is an ultra-premium Italian spirit known for its exceptional smoothness and refined character. Distilled to high standards, it delivers a clean, velvety finish, making it ideal for elegant cocktails or neat enjoyment."
+  },
+  {
+    "id": 143,
+    "name": "Romano Lumbergr Vodka",
+    "category": "vodka",
+    "price": 3500,
+    "size": "700ml",
+    "image": "images/vodka/vodka-imgs/romano-lumbergr.webp",
+    "description": "Romano Lumbergr Vodka is a premium spirit presented in a distinctive tall bottle design. Smooth and full-bodied with a clean finish, it offers a refined drinking experience suitable for classic cocktails or sipping neat."
+  },
+  {
+    "id": 144,
+    "name": "Romanov Premium Vodka",
+    "category": "vodka",
+    "price": 280,
+    "size": "750ml",
+    "image": "images/vodka/vodka-imgs/romanov.webp",
+    "description": "Romanov Premium Vodka is a smooth and approachable spirit crafted for everyday enjoyment. Clean and crisp with a balanced finish, it works perfectly in classic cocktails or served chilled for a straightforward vodka experience."
+  },
+  {
+    "id": 145,
+    "name": "Roochenko Pure Russian Vodka",
+    "category": "vodka",
+    "price": 210,
+    "size": "750ml",
+    "image": "images/vodka/vodka-imgs/roochenko.webp",
+    "description": "Roochenko Pure Russian Vodka is a traditional-style vodka inspired by Russian distillation methods. Smooth and neutral with a clear finish, it is ideal for shots, simple mixers, and classic vodka-based cocktails."
+  },
+  {
+    "id": 146,
+    "name": "Short Story Triple Distilled Grain Vodka",
+    "category": "vodka",
+    "price": 900,
+    "size": "750ml",
+    "image": "images/vodka/vodka-imgs/short-story.webp",
+    "description": "Short Story Triple Distilled Grain Vodka is crafted from select grains and distilled three times for enhanced purity. Light-bodied and smooth with a clean finish, it is perfect for refreshing cocktails or neat pours."
+  },
+  {
+    "id": 147,
+    "name": "SKYY Vodka",
+    "category": "vodka",
+    "price": 1470,
+    "size": "750ml",
+    "image": "images/vodka/vodka-imgs/skyy-vodka.webp",
+    "description": "SKYY Vodka is an American vodka known for its clean and crisp profile. Smooth with subtle grain notes and a refined finish, it blends effortlessly into cocktails or can be enjoyed chilled for a classic serve."
+  },
+  {
+    "id": 148,
+    "name": "Smirnoff Vodka No. 21",
+    "category": "vodka",
+    "price": 700,
+    "size": "750ml",
+    "image": "images/vodka/vodka-imgs/smirnoff.webp",
+    "description": "Smirnoff Vodka No. 21 is a triple distilled and ten-times filtered spirit renowned for its clarity and smoothness. Neutral and versatile, it is ideal for a wide range of cocktails or enjoyed straight over ice."
+  },
+  {
+    "id": 149,
+    "name": "Smirnoff Green Apple Vodka",
+    "category": "vodka",
+    "price": 700,
+    "size": "750ml",
+    "image": "images/vodka/vodka-imgs/smirnoff-green-apple.webp",
+    "description": "Smirnoff Green Apple Vodka is a crisp, fruit-infused spirit blending triple distilled vodka with the fresh tartness of green apples. Smooth and lightly sweet with a refreshing finish, it is perfect for chilled shots or vibrant cocktails."
+  },
+  {
+    "id": 150,
+    "name": "Smirnoff Minty Jamun Vodka",
+    "category": "vodka",
+    "price": 700,
+    "size": "750ml",
+    "image": "images/vodka/vodka-imgs/smirnoff-jamun.webp",
+    "description": "Smirnoff Minty Jamun Vodka is a bold flavored vodka combining the juicy richness of jamun with a cool hint of mint. Crafted in India, it delivers a unique sweet-tangy taste with a refreshing twist, ideal for creative cocktails."
+  },
+  {
+    "id": 151,
+    "name": "Smirnoff Mirchi Mango Vodka",
+    "category": "vodka",
+    "price": 700,
+    "size": "375ml",
+    "image": "images/vodka/vodka-imgs/smirnoff-mirchi-mango.webp",
+    "description": "Smirnoff Mirchi Mango Vodka blends tropical mango sweetness with a spicy chili kick for a vibrant flavor experience. Triple distilled and smooth, it offers a bold balance of heat and fruitiness, perfect for adventurous cocktails."
+  },
+  {
+    "id": 152,
+    "name": "Smirnoff Orange Vodka",
+    "category": "vodka",
+    "price": 700,
+    "size": "750ml",
+    "image": "images/vodka/vodka-imgs/smirnoff-orange.webp",
+    "description": "Smirnoff Orange Vodka is a citrus-infused spirit combining triple distilled vodka with bright, zesty orange flavors. Smooth and refreshing with a crisp finish, it works beautifully in classic mixed drinks and fruity cocktails."
+  },
+  {
+    "id": 153,
+    "name": "Smirnoff Zesty Lime Vodka",
+    "category": "vodka",
+    "price": 700,
+    "size": "750ml",
+    "image": "images/vodka/vodka-imgs/smirnoff-zesty-lime.webp",
+    "description": "Smirnoff Zesty Lime Vodka delivers a lively burst of lime flavor layered over smooth triple distilled vodka. Tangy, crisp, and refreshing, it is perfect for mixing with soda, tonic, or crafting citrus-forward cocktails."
+  },
+  {
+    "id": 154,
+    "name": "Smoke Lab Aniseed Vodka",
+    "category": "vodka",
+    "price": 2199,
+    "size": "750ml",
+    "image": "images/vodka/vodka-imgs/smoke-lab-aniseed.webp",
+    "description": "Smoke Lab Aniseed Vodka is a premium 5x distilled spirit infused with bold aniseed flavors. Smooth yet aromatic, it delivers a distinctive herbal sweetness balanced by a clean finish, making it ideal for refined cocktails or sipping chilled."
+  },
+  {
+    "id": 155,
+    "name": "Smoke Lab Green Chilli Mango Vodka",
+    "category": "vodka",
+    "price": 2199,
+    "size": "700ml",
+    "image": "images/vodka/vodka-imgs/smoke-lab-green-chilli-mango.webp",
+    "description": "Smoke Lab Green Chilli Mango Vodka is a vibrant flavored spirit combining juicy mango sweetness with a fiery green chilli kick. 5x distilled and imported, it offers a bold fusion of tropical fruit and spice, perfect for adventurous cocktails."
+  },
+  {
+    "id": 156,
+    "name": "Smoke Lab Saffron Flavored Vodka",
+    "category": "vodka",
+    "price": 2199,
+    "size": "750ml",
+    "image": "images/vodka/vodka-imgs/smoke-lab-saffron.webp",
+    "description": "Smoke Lab Saffron Vodka is a luxurious 5x distilled flavored vodka infused with rich saffron notes. Smooth and aromatic, it delivers a warm, subtly sweet character with a refined finish, ideal for premium cocktails or elegant sipping."
+  },
+  {
+    "id": 157,
+    "name": "Solo Gold Vodka",
+    "category": "vodka",
+    "price": 3150,
+    "size": "750ml",
+    "image": "images/vodka/vodka-imgs/solo-gold.webp",
+    "description": "Solo Gold Vodka is a premium clear spirit presented in an elegant gold-accented bottle. Crafted for smoothness and clarity, it offers a clean, crisp taste with a refined finish, making it suitable for classic cocktails or neat pours."
+  },
+  {
+    "id": 158,
+    "name": "Sound Vodka Caramel",
+    "category": "vodka",
+    "price": 1610,
+    "size": "750ml",
+    "image": "images/vodka/vodka-imgs/sound-vodka-caramel.webp",
+    "description": "Sound Vodka Caramel is a cold distilled spirit infused with rich caramel extract. Smooth and slightly sweet with warm toffee notes, it delivers a mellow finish that pairs beautifully with dessert-style cocktails or served over ice."
+  },
+  {
+    "id": 159,
+    "name": "Sound Vodka Citrus",
+    "category": "vodka",
+    "price": 1610,
+    "size": "750ml",
+    "image": "images/vodka/vodka-imgs/sound-vodka-citrus.webp",
+    "description": "Sound Vodka Citrus is a 36% ABV spirit distilled with lemon, oranges and grapefruit for a bright, refreshing profile. Crisp and zesty with balanced citrus notes, it delivers a clean finish that works beautifully in fresh cocktails or served chilled."
+  },
+  {
+    "id": 160,
+    "name": "Sound Vodka Coffee Liqueur",
+    "category": "vodka",
+    "price": 1610,
+    "size": "750ml",
+    "image": "images/vodka/vodka-imgs/sound-vodka-coffee.webp",
+    "description": "Sound Vodka Coffee Liqueur is infused with 100% Arabica coffee, offering deep roasted aromas and smooth, slightly sweet notes. With a rich and mellow character, it is perfect for espresso martinis, dessert cocktails or served over ice."
+  },
+  {
+    "id": 161,
+    "name": "Sound Vodka Original",
+    "category": "vodka",
+    "price": 1600,
+    "size": "750ml",
+    "image": "images/vodka/vodka-imgs/sound-vodka-original.webp",
+    "description": "Sound Vodka Original is filtered through bamboo charcoal to achieve exceptional smoothness and clarity. Bottled at 40% ABV, it delivers a clean, crisp taste with a refined finish, ideal for classic cocktails or neat pours."
+  },
+  {
+    "id": 162,
+    "name": "Stoli Cucumber Vodka",
+    "category": "vodka",
+    "price": 0,
+    "size": "750ml",
+    "image": "images/vodka/vodka-imgs/stoli-cucumber.webp",
+    "description": "Stoli Cucumber Vodka is a refreshing flavored vodka infused with natural cucumber essence. Light, crisp and subtly herbal, it provides a clean and cooling finish that pairs perfectly with tonic, soda or fresh summer cocktails."
+  },
+  {
+    "id": 163,
+    "name": "Stoli Original Vodka",
+    "category": "vodka",
+    "price": 2110,
+    "size": "750ml",
+    "image": "images/vodka/vodka-imgs/stoli-original.webp",
+    "description": "Stoli Original Vodka is a premium spirit crafted for unmatched smoothness and balance. Distilled to deliver clarity and a clean profile, it offers subtle grain character with a crisp finish, making it ideal for timeless cocktails or straight pours."
+  },
+  {
+    "id": 164,
+    "name": "Stoli Salted Caramel Vodka",
+    "category": "vodka",
+    "price": 2550,
+    "size": "750ml",
+    "image": "images/vodka/vodka-imgs/stoli-salted-caramel.webp",
+    "description": "Stoli Salted Caramel Vodka is a rich and indulgent flavored vodka blending smooth caramel sweetness with a delicate touch of sea salt. Creamy and well-balanced, it offers dessert-like warmth and a silky finish, perfect for sipping, shots, or decadent cocktails."
+  },
+  {
+    "id": 165,
+    "name": "Tigerfire Premium Artisan Vodka",
+    "category": "vodka",
+    "price": 0,
+    "size": "750ml",
+    "image": "images/vodka/vodka-imgs/tigerfire.webp",
+    "description": "Tigerfire Premium Artisan Vodka is a bold and refined spirit crafted with precision for exceptional smoothness and character. Clean and balanced with a subtle warmth, it delivers a crisp finish suitable for classic cocktails or refined straight pours."
+  },
+  {
+    "id": 166,
+    "name": "Tito's Handmade Vodka",
+    "category": "vodka",
+    "price": 0,
+    "size": "750ml",
+    "image": "images/vodka/vodka-imgs/titos.webp",
+    "description": "Tito's Handmade Vodka is an award-winning American vodka crafted in old-fashioned pot stills. Exceptionally smooth with a clean, neutral profile, it offers a soft finish that makes it ideal for cocktails or enjoying neat over ice."
+  },
+  {
+    "id": 167,
+    "name": "Uluvka Vodka",
+    "category": "vodka",
+    "price": 4850,
+    "size": "750ml",
+    "image": "images/vodka/vodka-imgs/uluvka.webp",
+    "description": "Uluvka Vodka is a premium Polish spirit presented in an elegant sculpted bottle. Distilled for purity and balance, it delivers a smooth mouthfeel with subtle grain notes and a refined, clean finish suited for upscale cocktails or sophisticated sipping."
+  },
+  {
+    "id": 168,
+    "name": "Vodkoff Original Premium Vodka",
+    "category": "vodka",
+    "price": 2175,
+    "size": "750ml",
+    "image": "images/vodka/vodka-imgs/vodkoff-original.webp",
+    "description": "Vodkoff Original Premium Vodka is a fine distilled spirit offering a classic clean taste and smooth character. Crisp and well-rounded, it provides a balanced finish that works well in everyday cocktails or served chilled."
+  },
+  {
+    "id": 169,
+    "name": "Zig Zag Green Apple Vodka",
+    "category": "vodka",
+    "price": 400,
+    "size": "750ml",
+    "image": "images/vodka/vodka-imgs/zig-zag-green-apple.webp",
+    "description": "Zig Zag Green Apple Vodka is a vibrant flavored spirit infused with the crisp and tangy taste of fresh green apples. Smooth and refreshing with a lightly sweet finish, it delivers a lively fruity kick that works perfectly in chilled shots or energetic cocktails."
+  },
+  {
+    "id": 170,
+    "name": "Zig Zag Original Vodka",
+    "category": "vodka",
+    "price": 0,
+    "size": "750ml",
+    "image": "images/vodka/vodka-imgs/zig-zag-original.webp",
+    "description": "Zig Zag Original Vodka is a clean and smooth spirit crafted for a balanced and versatile drinking experience. With a crisp profile and refined finish, it is ideal for classic mixed drinks, party cocktails or serving neat and well chilled."
   }
 ]

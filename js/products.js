@@ -5,6 +5,7 @@
 const params = new URLSearchParams(window.location.search);
 const category = params.get("category");
 
+const searchInput = document.getElementById("search-input");
 const categoryTitle = document.getElementById("category-title");
 const productGrid = document.getElementById("product-grid");
 
@@ -17,18 +18,17 @@ const modalPrice = document.getElementById("modal-price");
 const modalSize = document.getElementById("modal-size");
 const modalDescription = document.getElementById("modal-description");
 
-const beerFilters = document.getElementById("beer-filters");
 const filterType = document.getElementById("filter-type");
 const filterStrength = document.getElementById("filter-strength");
 
-let allProducts = []; // store category products
+let allProducts = [];
 
 
 // =============================
 // SET CATEGORY TITLE
 // =============================
 
-if (category) {
+if (category && categoryTitle) {
     categoryTitle.textContent =
         category.charAt(0).toUpperCase() + category.slice(1);
 }
@@ -63,7 +63,7 @@ function renderProducts(products) {
 
     productGrid.innerHTML = "";
 
-    if (products.length === 0) {
+    if (!products.length) {
         productGrid.innerHTML = "<p>No products found.</p>";
         return;
     }
@@ -80,20 +80,20 @@ function renderProducts(products) {
         `;
 
         card.addEventListener("click", () => openModal(product));
-
         productGrid.appendChild(card);
     });
 }
 
 
 // =============================
-// APPLY BEER FILTERS
+// APPLY ALL FILTERS (Search + Type + Strength)
 // =============================
 
-function applyBeerFilters() {
+function applyAllFilters() {
 
-    const selectedType = filterType.value;
-    const selectedStrength = filterStrength.value;
+    const selectedType = filterType ? filterType.value : "all";
+    const selectedStrength = filterStrength ? filterStrength.value : "all";
+    const searchValue = searchInput ? searchInput.value.toLowerCase() : "";
 
     const filtered = allProducts.filter(product => {
 
@@ -103,7 +103,10 @@ function applyBeerFilters() {
         const strengthMatch =
             selectedStrength === "all" || product.strength === selectedStrength;
 
-        return typeMatch && strengthMatch;
+        const searchMatch =
+            product.name.toLowerCase().includes(searchValue);
+
+        return typeMatch && strengthMatch && searchMatch;
     });
 
     renderProducts(filtered);
@@ -122,21 +125,7 @@ fetch("data/drinks.json")
             item => item.category === category
         );
 
-        if (allProducts.length === 0) {
-            productGrid.innerHTML = "<p>No products available.</p>";
-            return;
-        }
-
-        renderProducts(allProducts);
-
-        // Show filters ONLY for beer
-        if (category === "beer") {
-            beerFilters.style.display = "flex";
-
-            filterType.addEventListener("change", applyBeerFilters);
-            filterStrength.addEventListener("change", applyBeerFilters);
-        }
-
+        applyAllFilters(); // initial render
     })
     .catch(error => {
         console.error("Error loading products:", error);
@@ -145,19 +134,30 @@ fetch("data/drinks.json")
 
 
 // =============================
-// MODAL EVENT LISTENERS
+// EVENT LISTENERS
 // =============================
 
-closeBtn.addEventListener("click", (e) => {
-    e.stopPropagation();
-    closeModal();
-});
+if (searchInput) {
+    searchInput.addEventListener("input", applyAllFilters);
+}
 
-modal.addEventListener("click", (e) => {
-    if (e.target === modal) {
-        closeModal();
-    }
-});
+if (filterType) {
+    filterType.addEventListener("change", applyAllFilters);
+}
+
+if (filterStrength) {
+    filterStrength.addEventListener("change", applyAllFilters);
+}
+
+if (closeBtn) {
+    closeBtn.addEventListener("click", closeModal);
+}
+
+if (modal) {
+    modal.addEventListener("click", (e) => {
+        if (e.target === modal) closeModal();
+    });
+}
 
 document.addEventListener("keydown", (e) => {
     if (e.key === "Escape" && modal.classList.contains("active")) {

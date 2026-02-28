@@ -847,3 +847,29 @@ body.loaded {
     border-radius: 6px;
     cursor: pointer;
 }
+.search-wrapper {
+    margin: 20px 0 30px 0;
+    text-align: center;
+}
+
+#search-input {
+    width: 100%;
+    max-width: 400px;
+    padding: 12px 18px;
+    border-radius: 30px;
+    border: 1px solid rgba(255,255,255,0.1);
+    background: #141418;
+    color: #fff;
+    font-size: 15px;
+    outline: none;
+    transition: 0.3s ease;
+}
+
+#search-input::placeholder {
+    color: rgba(255,255,255,0.4);
+}
+
+#search-input:focus {
+    border: 1px solid #d4af37;
+    box-shadow: 0 0 8px rgba(212,175,55,0.3);
+}

@@ -23,144 +23,139 @@ const filterStrength = document.getElementById("filter-strength");
 
 let allProducts = [];
 
-
 // =============================
 // SET CATEGORY TITLE
 // =============================
 
 if (category && categoryTitle) {
-    categoryTitle.textContent =
-        category.charAt(0).toUpperCase() + category.slice(1);
+  categoryTitle.textContent =
+    category.charAt(0).toUpperCase() + category.slice(1);
 }
-
 
 // =============================
 // MODAL FUNCTIONS
 // =============================
 
 function openModal(product) {
-    modalImage.src = product.image;
-    modalName.textContent = product.name;
-    modalPrice.textContent = "Price: ₹ " + product.price;
-    modalSize.textContent = "Size: " + product.size;
-    modalDescription.textContent = product.description;
+  modalImage.src = product.image;
+  modalName.textContent = product.name;
+  modalPrice.textContent = "Price: ₹ " + product.price;
+  modalSize.textContent = "Size: " + product.size;
+  modalDescription.textContent = product.description;
 
-    modal.classList.add("active");
-    document.body.style.overflow = "hidden";
+  modal.classList.add("active");
+  document.body.style.overflow = "hidden";
 }
 
 function closeModal() {
-    modal.classList.remove("active");
-    document.body.style.overflow = "auto";
+  modal.classList.remove("active");
+  document.body.style.overflow = "auto";
 }
-
 
 // =============================
 // RENDER PRODUCTS
 // =============================
 
 function renderProducts(products) {
+  productGrid.innerHTML = "";
 
-    productGrid.innerHTML = "";
+  if (!products.length) {
+    productGrid.innerHTML = "<p>No products found.</p>";
+    return;
+  }
 
-    if (!products.length) {
-        productGrid.innerHTML = "<p>No products found.</p>";
-        return;
-    }
+  products.forEach((product) => {
+    const card = document.createElement("div");
+    card.classList.add("product-card");
 
-    products.forEach(product => {
+    card.innerHTML = `
+    <div class="product-image">
+        <img src="${product.image}" alt="${product.name}">
+    </div>
+    <h3>${product.name}</h3>
+    <p>₹ ${product.price}</p>
+`;
 
-        const card = document.createElement("div");
-        card.classList.add("product-card");
-
-        card.innerHTML = `
-            <img src="${product.image}" alt="${product.name}">
-            <h3>${product.name}</h3>
-            <p>₹ ${product.price}</p>
-        `;
-
-        card.addEventListener("click", () => openModal(product));
-        productGrid.appendChild(card);
-    });
+    card.addEventListener("click", () => openModal(product));
+    productGrid.appendChild(card);
+  });
 }
-
 
 // =============================
 // APPLY ALL FILTERS (Search + Type + Strength)
 // =============================
 
 function applyAllFilters() {
+  const selectedType = filterType ? filterType.value : "all";
+  const selectedStrength = filterStrength ? filterStrength.value : "all";
+  const searchValue = searchInput ? searchInput.value.toLowerCase() : "";
 
-    const selectedType = filterType ? filterType.value : "all";
-    const selectedStrength = filterStrength ? filterStrength.value : "all";
-    const searchValue = searchInput ? searchInput.value.toLowerCase() : "";
+  const filtered = allProducts.filter((product) => {
+    const typeMatch = selectedType === "all" || product.type === selectedType;
 
-    const filtered = allProducts.filter(product => {
+    const strengthMatch =
+      selectedStrength === "all" || product.strength === selectedStrength;
 
-        const typeMatch =
-            selectedType === "all" || product.type === selectedType;
+    const searchMatch = product.name.toLowerCase().includes(searchValue);
 
-        const strengthMatch =
-            selectedStrength === "all" || product.strength === selectedStrength;
+    return typeMatch && strengthMatch && searchMatch;
+  });
 
-        const searchMatch =
-            product.name.toLowerCase().includes(searchValue);
-
-        return typeMatch && strengthMatch && searchMatch;
-    });
-
-    renderProducts(filtered);
+  renderProducts(filtered);
 }
-
 
 // =============================
 // FETCH PRODUCTS
 // =============================
 
 fetch("data/drinks.json")
-    .then(response => response.json())
-    .then(data => {
+  .then((response) => response.json())
+  .then((data) => {
+    allProducts = data.filter((item) => item.category === category);
 
-        allProducts = data.filter(
-            item => item.category === category
-        );
+    // Show filters ONLY for beer
+    if (category === "beer") {
+      const beerFilters = document.getElementById("beer-filters");
+      if (beerFilters) {
+        beerFilters.style.display = "flex";
+      }
+    }
 
-        applyAllFilters(); // initial render
-    })
-    .catch(error => {
-        console.error("Error loading products:", error);
-        productGrid.innerHTML = "<p>Error loading products.</p>";
-    });
-
+    applyAllFilters();
+  })
+  .catch((error) => {
+    console.error("Error loading products:", error);
+    productGrid.innerHTML = "<p>Error loading products.</p>";
+  });
 
 // =============================
 // EVENT LISTENERS
 // =============================
 
 if (searchInput) {
-    searchInput.addEventListener("input", applyAllFilters);
+  searchInput.addEventListener("input", applyAllFilters);
 }
 
 if (filterType) {
-    filterType.addEventListener("change", applyAllFilters);
+  filterType.addEventListener("change", applyAllFilters);
 }
 
 if (filterStrength) {
-    filterStrength.addEventListener("change", applyAllFilters);
+  filterStrength.addEventListener("change", applyAllFilters);
 }
 
 if (closeBtn) {
-    closeBtn.addEventListener("click", closeModal);
+  closeBtn.addEventListener("click", closeModal);
 }
 
 if (modal) {
-    modal.addEventListener("click", (e) => {
-        if (e.target === modal) closeModal();
-    });
+  modal.addEventListener("click", (e) => {
+    if (e.target === modal) closeModal();
+  });
 }
 
 document.addEventListener("keydown", (e) => {
-    if (e.key === "Escape" && modal.classList.contains("active")) {
-        closeModal();
-    }
+  if (e.key === "Escape" && modal.classList.contains("active")) {
+    closeModal();
+  }
 });

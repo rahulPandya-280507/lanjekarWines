@@ -842,6 +842,7 @@ body.loaded {
 }
 
 .beer-filters select {
+    width: 150px;
     padding: 10px 15px;
     background: #1e1e1e;
     color: white;

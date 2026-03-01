@@ -21,6 +21,9 @@ const modalDescription = document.getElementById("modal-description");
 const filterType = document.getElementById("filter-type");
 const filterStrength = document.getElementById("filter-strength");
 
+const filterWhiskeyType = document.getElementById("filter-whiskey-type");
+const filterWhiskeyStyle = document.getElementById("filter-whiskey-style");
+
 let allProducts = [];
 
 // =============================
@@ -86,24 +89,64 @@ function renderProducts(products) {
 // =============================
 
 function applyAllFilters() {
-  const selectedType = filterType ? filterType.value : "all";
-  const selectedStrength = filterStrength ? filterStrength.value : "all";
+
+  let filtered = [...allProducts];
+
   const searchValue = searchInput ? searchInput.value.toLowerCase() : "";
 
-  const filtered = allProducts.filter((product) => {
-    const typeMatch = selectedType === "all" || product.type === selectedType;
+  // ======================
+  // BEER FILTER
+  // ======================
+  if (category === "beer") {
 
-    const strengthMatch =
-      selectedStrength === "all" || product.strength === selectedStrength;
+    const selectedType = filterType ? filterType.value : "all";
+    const selectedStrength = filterStrength ? filterStrength.value : "all";
 
-    const searchMatch = product.name.toLowerCase().includes(searchValue);
+    filtered = filtered.filter(product => {
 
-    return typeMatch && strengthMatch && searchMatch;
-  });
+      const typeMatch =
+        selectedType === "all" ||
+        product.type.toLowerCase() === selectedType;
+
+      const strengthMatch =
+        selectedStrength === "all" ||
+        product.strength.toLowerCase() === selectedStrength;
+
+      return typeMatch && strengthMatch;
+    });
+  }
+
+  // ======================
+  // WHISKEY FILTER
+  // ======================
+  if (category === "whiskey") {
+
+    const selectedType = filterWhiskeyType ? filterWhiskeyType.value : "all";
+    const selectedStyle = filterWhiskeyStyle ? filterWhiskeyStyle.value : "all";
+
+    filtered = filtered.filter(product => {
+
+      const typeMatch =
+        selectedType === "all" ||
+        product.type.toLowerCase() === selectedType;
+
+      const styleMatch =
+        selectedStyle === "all" ||
+        product.style.toLowerCase() === selectedStyle;
+
+      return typeMatch && styleMatch;
+    });
+  }
+
+  // ======================
+  // SEARCH
+  // ======================
+  filtered = filtered.filter(product =>
+    product.name.toLowerCase().includes(searchValue)
+  );
 
   renderProducts(filtered);
 }
-
 // =============================
 // FETCH PRODUCTS
 // =============================
@@ -121,6 +164,13 @@ fetch("data/drinks.json")
       }
     }
 
+    if (category === "whiskey") {
+      const whiskeyFilters = document.getElementById("whiskey-filters");
+      if (whiskeyFilters) {
+        whiskeyFilters.style.display = "flex";
+      }
+    }
+
     applyAllFilters();
   })
   .catch((error) => {
@@ -131,6 +181,14 @@ fetch("data/drinks.json")
 // =============================
 // EVENT LISTENERS
 // =============================
+
+if (filterWhiskeyType) {
+  filterWhiskeyType.addEventListener("change", applyAllFilters);
+}
+
+if (filterWhiskeyStyle) {
+  filterWhiskeyStyle.addEventListener("change", applyAllFilters);
+}
 
 if (searchInput) {
   searchInput.addEventListener("input", applyAllFilters);
@@ -147,6 +205,8 @@ if (filterStrength) {
 if (closeBtn) {
   closeBtn.addEventListener("click", closeModal);
 }
+
+
 
 if (modal) {
   modal.addEventListener("click", (e) => {

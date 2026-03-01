@@ -945,7 +945,7 @@
     "id": 89,
     "name": "Arabella Guava Vodka",
     "category": "vodka",
-    "price": 0,
+    "price": 360,
     "size": "750ml",
     "image": "images/vodka/vodka-imgs/arabella-guava.webp",
     "description": "Arabella Guava Vodka is a fruity, tropical-infused spirit that blends smooth vodka with the sweet and slightly tangy flavor of ripe guava. Refreshing and vibrant, it offers a clean finish, making it perfect for chilled shots or creative cocktails."
@@ -981,7 +981,7 @@
     "id": 93,
     "name": "Beluga Celebration Vodka",
     "category": "vodka",
-    "price": 0,
+    "price": 7850,
     "size": "700ml",
     "image": "images/vodka/vodka-imgs/beluga-celebration.webp",
     "description": "Beluga Celebration Vodka is a premium Russian spirit crafted with exceptional precision and refinement. Known for its smooth, velvety texture and balanced finish, it delivers a clean and elegant taste, presented in a striking gold design that reflects luxury and sophistication."
@@ -990,7 +990,7 @@
     "id": 94,
     "name": "Beluga Gold Line Vodka Gift Set",
     "category": "vodka",
-    "price": 0,
+    "price": 17490,
     "size": "750ml",
     "image": "images/vodka/vodka-imgs/beluga-cold-line.webp",
     "description": "Beluga Gold Line is a luxury noble Russian vodka crafted with exceptional care and extended refinement. Known for its silky texture and smooth, balanced finish, this premium gift set includes the signature bottle along with branded accessories, presented in an elegant box that reflects sophistication and exclusivity."
@@ -999,7 +999,7 @@
     "id": 95,
     "name": "Beluga Noble Vodka Export",
     "category": "vodka",
-    "price": 0,
+    "price": 7290,
     "size": "750ml",
     "image": "images/vodka/vodka-imgs/beluga-noble-export.webp",
     "description": "Beluga Noble Vodka Export is a premium Russian vodka crafted with meticulous refinement for exceptional smoothness and clarity. Known for its soft, balanced character and clean finish, it delivers a refined drinking experience presented in an elegant, classic design that reflects its noble heritage."
@@ -1008,7 +1008,7 @@
     "id": 96,
     "name": "Beluga Transatlantic Racing Vodka",
     "category": "vodka",
-    "price": 0,
+    "price": 6250,
     "size": "700ml",
     "image": "images/vodka/vodka-imgs/beluga-transatlantic.webp",
     "description": "Beluga Transatlantic Racing Vodka is a premium Russian spirit inspired by yachting excellence and crafted for exceptional smoothness. Refined and well-balanced, it offers a clean, crisp taste with a silky finish, presented in a sleek black and gold design that reflects elegance and performance."
@@ -1026,7 +1026,7 @@
     "id": 98,
     "name": "Broken Heart Orange Classic Vodka",
     "category": "vodka",
-    "price": 0,
+    "price": 350,
     "size": "750ml",
     "image": "images/vodka/vodka-imgs/broken-heart.webp",
     "description": "Broken Heart Orange Classic Vodka is a citrus-infused spirit crafted with vibrant orange notes and a smooth vodka base. Refreshing and lightly zesty, it delivers a balanced sweetness with a clean finish, making it ideal for lively cocktails or chilled shots."
@@ -1071,7 +1071,7 @@
     "id": 103,
     "name": "Fly Superior Vodka",
     "category": "vodka",
-    "price": 0,
+    "price": 2845,
     "size": "700ml",
     "image": "images/vodka/vodka-imgs/fly.webp",
     "description": "Fly Superior Vodka is a premium spirit bottled in Switzerland, crafted for smoothness and refined taste. With its clean, crisp character and balanced finish, it delivers a sophisticated drinking experience, presented in a distinctive purple glass bottle that reflects elegance and quality."
@@ -1098,7 +1098,7 @@
     "id": 106,
     "name": "Haku Vodka",
     "category": "vodka",
-    "price": 0,
+    "price": 4000,
     "size": "700ml",
     "image": "images/vodka/vodka-imgs/haku.webp",
     "description": "Haku Vodka is a premium Japanese craft vodka distilled from 100% Japanese white rice and filtered through bamboo charcoal for exceptional purity. Smooth, subtly sweet, and delicately rounded on the palate, it delivers a clean, refined finish that makes it perfect for sipping neat or enhancing elegant cocktails."
@@ -1116,7 +1116,7 @@
     "id": 108,
     "name": "Husky Legend of the North Vodka",
     "category": "vodka",
-    "price": 0,
+    "price": 2200,
     "size": "750ml",
     "image": "images/vodka/vodka-imgs/husky.webp",
     "description": "Husky Legend of the North Vodka is a premium cold-filtered vodka inspired by the purity and strength of northern landscapes. Smooth and crisp with a clean, balanced finish, it offers a refined drinking experience ideal for chilled shots or classic vodka cocktails."
@@ -1188,7 +1188,7 @@
     "id": 116,
     "name": "Khortytsa Green Apple Vodka",
     "category": "vodka",
-    "price": 0,
+    "price": 2150,
     "size": "750ml",
     "image": "images/vodka/vodka-imgs/khortytsa-green-apple.webp",
     "description": "Khortytsa Green Apple Vodka combines smooth premium vodka with crisp green apple flavor. Lightly sweet with a refreshing tang, it offers a clean and vibrant taste profile. Ideal for creative cocktails or enjoying chilled for a fruity twist."
@@ -1287,7 +1287,7 @@
     "id": 127,
     "name": "Ochre Small Batch Peach & Cherry Vodka",
     "category": "vodka",
-    "price": 0,
+    "price": 1450,
     "size": "750ml",
     "image": "images/vodka/vodka-imgs/ochre-peach-and-cherry.webp",
     "description": "Ochre Small Batch Peach & Cherry Vodka blends smooth handcrafted vodka with the juicy sweetness of ripe peaches and cherries. Fruit-forward and refreshing, it offers a balanced sweetness with a clean finish, perfect for vibrant cocktails or chilled pours."
@@ -1296,7 +1296,7 @@
     "id": 128,
     "name": "Ochre Small Batch Peach & Cherry Vodka (Premium Label)",
     "category": "vodka",
-    "price": 0,
+    "price": 1275,
     "size": "750ml",
     "image": "images/vodka/vodka-imgs/ochre-peach-and-cherry-small.webp",
     "description": "Ochre Small Batch Peach & Cherry Vodka (Premium Label) delivers the same rich fusion of peach and cherry flavors with a smooth vodka base. Bright, aromatic, and well-balanced, it is ideal for creative mixology, refreshing cocktails, or serving over ice."
@@ -1305,7 +1305,7 @@
     "id": 129,
     "name": "Ochre Small Batch Saffron Vodka",
     "category": "vodka",
-    "price": 0,
+    "price": 1450,
     "size": "750ml",
     "image": "images/vodka/vodka-imgs/ochre-saffron.webp",
     "description": "Ochre Small Batch Saffron Vodka is a handcrafted spirit infused with premium saffron, offering a delicate warmth and subtle spice layered over a smooth vodka base. Elegant and aromatic, it delivers a refined finish perfect for sophisticated cocktails or sipping chilled."
@@ -1314,7 +1314,7 @@
     "id": 130,
     "name": "Off Limits Crafted Vodka",
     "category": "vodka",
-    "price": 0,
+    "price": 675,
     "size": "750ml",
     "image": "images/vodka/vodka-imgs/off-limits-1.webp",
     "description": "Off Limits Crafted Vodka is a clean, contemporary spirit distilled for exceptional smoothness and clarity. Light-bodied with a crisp finish, it serves as a versatile foundation for classic cocktails or can be enjoyed neat."
@@ -1323,7 +1323,7 @@
     "id": 131,
     "name": "Off Limits Crafted Vodka (Amber Edition)",
     "category": "vodka",
-    "price": 0,
+    "price": 675,
     "size": "750ml",
     "image": "images/vodka/vodka-imgs/off-limits-2.webp",
     "description": "Off Limits Crafted Vodka (Amber Edition) features a distinctive character with a smooth texture and refined depth. Balanced and approachable, it is well suited for bold mixed drinks or premium cocktail creations."
@@ -1332,7 +1332,7 @@
     "id": 132,
     "name": "Off Limits Curated Vodka Green Apple",
     "category": "vodka",
-    "price": 0,
+    "price": 675,
     "size": "750ml",
     "image": "images/vodka/vodka-imgs/off-limits-3.webp",
     "description": "Off Limits Curated Vodka Green Apple blends crisp vodka with the refreshing tang of green apple. Vibrant and fruity with a clean finish, it adds a lively twist to cocktails or can be served chilled for a refreshing experience."
@@ -1359,7 +1359,7 @@
     "id": 135,
     "name": "Russian Standard Original Vodka",
     "category": "vodka",
-    "price": 0,
+    "price": 2250,
     "size": "750ml",
     "image": "images/vodka/vodka-imgs/pyccknn-2.webp",
     "description": "Russian Standard Original Vodka is an authentic Russian spirit distilled using traditional methods to deliver exceptional purity and smoothness. Clean and full-bodied with a balanced finish, it is perfect for classic cocktails or chilled shots."
@@ -1413,7 +1413,7 @@
     "id": 141,
     "name": "Roberto Cavalli Vodka (Black Edition)",
     "category": "vodka",
-    "price": 0,
+    "price": 8750,
     "size": "1L",
     "image": "images/vodka/vodka-imgs/roberto-cavalli-black.webp",
     "description": "Roberto Cavalli Vodka (Black Edition) is a luxury Italian vodka crafted with meticulous attention to purity and elegance. Silky smooth with a refined and balanced finish, it is perfect for premium cocktails or sophisticated sipping."
@@ -1602,7 +1602,7 @@
     "id": 162,
     "name": "Stoli Cucumber Vodka",
     "category": "vodka",
-    "price": 0,
+    "price": 2550,
     "size": "750ml",
     "image": "images/vodka/vodka-imgs/stoli-cucumber.webp",
     "description": "Stoli Cucumber Vodka is a refreshing flavored vodka infused with natural cucumber essence. Light, crisp and subtly herbal, it provides a clean and cooling finish that pairs perfectly with tonic, soda or fresh summer cocktails."
@@ -1629,7 +1629,7 @@
     "id": 165,
     "name": "Tigerfire Premium Artisan Vodka",
     "category": "vodka",
-    "price": 0,
+    "price": 3795,
     "size": "750ml",
     "image": "images/vodka/vodka-imgs/tigerfire.webp",
     "description": "Tigerfire Premium Artisan Vodka is a bold and refined spirit crafted with precision for exceptional smoothness and character. Clean and balanced with a subtle warmth, it delivers a crisp finish suitable for classic cocktails or refined straight pours."
@@ -1638,7 +1638,7 @@
     "id": 166,
     "name": "Tito's Handmade Vodka",
     "category": "vodka",
-    "price": 0,
+    "price": 3390,
     "size": "750ml",
     "image": "images/vodka/vodka-imgs/titos.webp",
     "description": "Tito's Handmade Vodka is an award-winning American vodka crafted in old-fashioned pot stills. Exceptionally smooth with a clean, neutral profile, it offers a soft finish that makes it ideal for cocktails or enjoying neat over ice."
@@ -1674,7 +1674,7 @@
     "id": 170,
     "name": "Zig Zag Original Vodka",
     "category": "vodka",
-    "price": 0,
+    "price": 390,
     "size": "750ml",
     "image": "images/vodka/vodka-imgs/zig-zag-original.webp",
     "description": "Zig Zag Original Vodka is a clean and smooth spirit crafted for a balanced and versatile drinking experience. With a crisp profile and refined finish, it is ideal for classic mixed drinks, party cocktails or serving neat and well chilled."

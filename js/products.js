@@ -89,7 +89,6 @@ function renderProducts(products) {
 // =============================
 
 function applyAllFilters() {
-
   let filtered = [...allProducts];
 
   const searchValue = searchInput ? searchInput.value.toLowerCase() : "";
@@ -98,15 +97,12 @@ function applyAllFilters() {
   // BEER FILTER
   // ======================
   if (category === "beer") {
-
     const selectedType = filterType ? filterType.value : "all";
     const selectedStrength = filterStrength ? filterStrength.value : "all";
 
-    filtered = filtered.filter(product => {
-
+    filtered = filtered.filter((product) => {
       const typeMatch =
-        selectedType === "all" ||
-        product.type.toLowerCase() === selectedType;
+        selectedType === "all" || product.type.toLowerCase() === selectedType;
 
       const strengthMatch =
         selectedStrength === "all" ||
@@ -120,15 +116,12 @@ function applyAllFilters() {
   // WHISKEY FILTER
   // ======================
   if (category === "whiskey") {
-
     const selectedType = filterWhiskeyType ? filterWhiskeyType.value : "all";
     const selectedStyle = filterWhiskeyStyle ? filterWhiskeyStyle.value : "all";
 
-    filtered = filtered.filter(product => {
-
+    filtered = filtered.filter((product) => {
       const typeMatch =
-        selectedType === "all" ||
-        product.type.toLowerCase() === selectedType;
+        selectedType === "all" || product.type.toLowerCase() === selectedType;
 
       const styleMatch =
         selectedStyle === "all" ||
@@ -141,8 +134,8 @@ function applyAllFilters() {
   // ======================
   // SEARCH
   // ======================
-  filtered = filtered.filter(product =>
-    product.name.toLowerCase().includes(searchValue)
+  filtered = filtered.filter((product) =>
+    product.name.toLowerCase().includes(searchValue),
   );
 
   renderProducts(filtered);
@@ -157,18 +150,20 @@ fetch("data/drinks.json")
     allProducts = data.filter((item) => item.category === category);
 
     // Show filters ONLY for beer
-    if (category === "beer") {
-      const beerFilters = document.getElementById("beer-filters");
-      if (beerFilters) {
-        beerFilters.style.display = "flex";
-      }
+    const beerFilters = document.getElementById("beer-filters");
+    const whiskeyFilters = document.getElementById("whiskey-filters");
+
+    // Hide both first
+    if (beerFilters) beerFilters.classList.remove("active");
+    if (whiskeyFilters) whiskeyFilters.classList.remove("active");
+
+    // Show only correct one
+    if (category === "beer" && beerFilters) {
+      beerFilters.classList.add("active");
     }
 
-    if (category === "whiskey") {
-      const whiskeyFilters = document.getElementById("whiskey-filters");
-      if (whiskeyFilters) {
-        whiskeyFilters.style.display = "flex";
-      }
+    if (category === "whiskey" && whiskeyFilters) {
+      whiskeyFilters.classList.add("active");
     }
 
     applyAllFilters();
@@ -205,8 +200,6 @@ if (filterStrength) {
 if (closeBtn) {
   closeBtn.addEventListener("click", closeModal);
 }
-
-
 
 if (modal) {
   modal.addEventListener("click", (e) => {

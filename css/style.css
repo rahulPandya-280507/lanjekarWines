@@ -876,3 +876,45 @@ body.loaded {
     border: 1px solid #d4af37;
     box-shadow: 0 0 8px rgba(212,175,55,0.3);
 }
+
+.filter-wrapper {
+  display: none;
+}
+
+.filter-wrapper.active {
+  display: flex;
+}
+
+/* ============================= */
+/* WHISKEY FILTERS */
+/* ============================= */
+
+.whiskey-filters {
+    margin-bottom: 40px;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.whiskey-filters select {
+    min-width: 220px;
+    padding: 12px 18px;
+    background: #1a1a1a;
+    color: white;
+    border: 1px solid #333;
+    border-radius: 8px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+/* Hover */
+.whiskey-filters select:hover {
+    border-color: #d4af37;
+}
+
+/* Focus */
+.whiskey-filters select:focus {
+    outline: none;
+    border-color: #d4af37;
+    box-shadow: 0 0 8px rgba(212,175,55,0.4);
+}

@@ -169,6 +169,24 @@ body {
 .category-card.rum {
     background-image: url('../images/rum/rum.webp');
 }
+.category-card.herbal-spirit {
+    background-image: url('../images/herbal-spirit/herbal-spirit.webp');
+}
+.category-card.gin {
+    background-image: url('../images/gin/gin.webp');
+}
+.category-card.absinthe {
+    background-image: url('../images/absinthe/absinthe.webp');
+}
+.category-card.agave {
+    background-image: url('../images/agave/agave.webp');
+}
+.category-card.feni {
+    background-image: url('../images/feni/feni.webp');
+}
+.category-card.liqour {
+    background-image: url('../images/liqour/liqour.webp');
+}
 
 /* ============================= */
 /* RESPONSIVE DESIGN */

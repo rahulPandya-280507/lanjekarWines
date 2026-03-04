@@ -4011,125 +4011,125 @@
     "image": "images/whiskey/whiskey-imgs/384.webp",
     "description": "Raotas Blended Scotch Whisky combines select malt and grain whiskies to create a balanced profile with notes of caramel, vanilla, light smoke, and gentle oak."
   },
-  {
+   {
     "id": 385,
-    "name": "Old Monk Gold Reserve Rum",
+    "name": "Old Monk Gold Reserve",
     "category": "rum",
     "type": "dark",
     "price": 400,
-    "size": "750ml",
+    "size": "700ml",
     "image": "images/rum/rum-imgs/385.webp",
-    "description": "Old Monk Gold Reserve Rum is a legendary Indian dark rum aged in oak barrels. It is known for its deep amber color, rich vanilla and caramel notes, and smooth, warming finish."
+    "description": "A premium dark rum aged for up to 12 years in oak barrels, offering a smooth and full-bodied character with notes of vanilla, caramel, molasses, and warm spices, followed by a rich and lingering finish."
   },
   {
     "id": 386,
-    "name": "Old Monk Special Edition Rum",
+    "name": "Old Monk Special Edition",
     "category": "rum",
     "type": "dark",
     "price": 715,
-    "size": "750ml",
+    "size": "700ml",
     "image": "images/rum/rum-imgs/386.webp",
-    "description": "Old Monk Special Edition Rum comes in the iconic monk-shaped bottle and offers a smooth, full-bodied character with hints of caramel, oak, and spice."
+    "description": "A rich and smooth dark rum with deep molasses sweetness, complemented by notes of vanilla, caramel, and subtle spices, delivering a warm and well-balanced finish."
   },
   {
     "id": 387,
-    "name": "Old Monk Extraordinary Rum",
+    "name": "Old Monk Extraordinary",
     "category": "rum",
-    "type": "spiced",
+    "type": "dark",
     "price": 715,
-    "size": "750ml",
+    "size": "700ml",
     "image": "images/rum/rum-imgs/387.webp",
-    "description": "Old Monk Extraordinary Rum features the classic Old Monk richness enhanced with warm spice notes, subtle sweetness, and a smooth finish."
+    "description": "A bold and full-bodied dark rum with rich molasses sweetness, layered with notes of caramel, vanilla, and gentle spices, leading to a smooth and warming finish."
   },
   {
     "id": 388,
-    "name": "Old Monk Supreme Rum",
+    "name": "Old Monk Supreme",
     "category": "rum",
     "type": "dark",
     "price": 600,
-    "size": "750ml",
+    "size": "700ml",
     "image": "images/rum/rum-imgs/388.webp",
-    "description": "Old Monk Supreme Rum is a premium dark rum presented in a unique monk-shaped bottle. It delivers rich molasses sweetness, oak complexity, and smooth warmth."
+    "description": "A smooth and well-balanced dark rum with rich molasses sweetness, complemented by notes of caramel, vanilla, and light spices, delivering a warm and mellow finish."
   },
   {
     "id": 389,
-    "name": "Amrut Two Indies Rum",
+    "name": "Amrut Two Indies",
     "category": "rum",
     "type": "dark",
     "price": 900,
-    "size": "750ml",
+    "size": "700ml",
     "image": "images/rum/rum-imgs/389.webp",
-    "description": "Amrut Two Indies Rum blends Indian and Caribbean rums to create a balanced spirit with notes of tropical fruit, vanilla, caramel, and gentle oak."
+    "description": "A distinctive rum crafted from Caribbean and Indian molasses, offering a smooth and balanced profile with notes of caramel, vanilla, oak, and subtle tropical sweetness, finishing warm and refined."
   },
   {
     "id": 390,
-    "name": "Old Monk Very Old Vatted Rum",
+    "name": "Old Monk Very Old Vatted (Dark)",
     "category": "rum",
     "type": "dark",
     "price": 220,
-    "size": "750ml",
+    "size": "700ml",
     "image": "images/rum/rum-imgs/390.webp",
-    "description": "Old Monk 7 Years Old Blended Rum is matured in oak casks and offers a smooth, rich profile with notes of vanilla, dark sugar, spice, and oak."
+    "description": "A classic dark rum known for its rich molasses sweetness, layered with notes of vanilla, caramel, and warm spices, delivering a smooth, full-bodied character with a lingering finish."
   },
   {
     "id": 391,
-    "name": "Old Monk: The Legend",
+    "name": "Old Monk The Legend",
     "category": "rum",
     "type": "dark",
     "price": 715,
-    "size": "750ml",
+    "size": "700ml",
     "image": "images/rum/rum-imgs/391.webp",
-    "description": "Old Monk Gold Reserve Monk Bottle Rum is known for its distinctive bottle design and classic Old Monk flavor of caramel, vanilla, and smooth oak."
+    "description": "A premium aged dark rum with a rich and smooth character, featuring notes of caramel, vanilla, toasted oak, and subtle spices, finished with a warm and lingering sweetness."
   },
   {
     "id": 392,
-    "name": "Pitbull Spiced Rum",
+    "name": "Pitbull Rum (Spiced)",
     "category": "rum",
     "type": "dark",
     "price": 600,
-    "size": "750ml",
+    "size": "700ml",
     "image": "images/rum/rum-imgs/392.webp",
-    "description": "Pitbull Spiced Rum is a bold dark rum with strong molasses character, subtle spice notes, and a warm finish."
+    "description": "A bold spiced rum with a smooth molasses base, infused with warm spices, vanilla, and hints of caramel, delivering a rich aroma and a lively, flavorful finish."
   },
   {
     "id": 393,
-    "name": "Pitbull Dark Rum",
+    "name": "Pitbull Rum (Dark)",
     "category": "rum",
     "type": "dark",
     "price": 600,
-    "size": "750ml",
+    "size": "700ml",
     "image": "images/rum/rum-imgs/393.webp",
-    "description": "Pitbull Premium Barrel Aged Rum is matured in oak barrels, offering deep caramel sweetness, gentle spice, and a smooth lingering finish."
+    "description": "A rich dark rum with deep molasses sweetness, complemented by notes of caramel, toasted sugar, and gentle spices, offering a smooth and warming finish."
   },
   {
     "id": 394,
-    "name": "Alejandro Dark Rum",
+    "name": "Alejandro (Dark)",
     "category": "rum",
     "type": "dark",
     "price": 1350,
-    "size": "750ml",
+    "size": "700ml",
     "image": "images/rum/rum-imgs/394.webp",
-    "description": "Alejandro Spiced Crafted Dark Rum blends rich dark rum with aromatic spices to create a warm, flavorful spirit with hints of vanilla and cinnamon."
+    "description": "A smooth dark rum with rich molasses sweetness, balanced by notes of caramel, vanilla, and subtle spice, delivering a warm and mellow finish."
   },
   {
     "id": 395,
-    "name": "Khukri Dark Rum",
+    "name": "Khukri",
     "category": "rum",
     "type": "dark",
     "price": 1600,
-    "size": "750ml",
+    "size": "700ml",
     "image": "images/rum/rum-imgs/395.webp",
-    "description": "Khukri Dark Rum is a Nepali rum matured in oak barrels and known for its bold character, rich molasses sweetness, and smooth finish."
+    "description": "A traditional Nepalese dark rum with a rich and smooth character, featuring notes of molasses, caramel, and subtle spices, finished with a warm and slightly smoky sweetness."
   },
   {
     "id": 396,
-    "name": "Makani Mazal Rumand Spice",
+    "name": "Makabi Mazal Rum And Spice",
     "category": "rum",
     "type": "dark",
     "price": 995,
-    "size": "750ml",
+    "size": "700ml",
     "image": "images/rum/rum-imgs/396.webp",
-    "description": "Makani Mazal Rumand Spice offers a smooth and rich spirit profile with warm spice notes, subtle sweetness, and a mellow finish."
+    "description": "A flavorful spiced rum with a smooth molasses base, infused with warm spices, vanilla, and hints of caramel, delivering a rich aroma and a gently sweet, warming finish."
   },
   {
     "id": 397,
@@ -4137,49 +4137,49 @@
     "category": "rum",
     "type": "dark",
     "price": 1690,
-    "size": "750ml",
+    "size": "700ml",
     "image": "images/rum/rum-imgs/397.webp",
-    "description": "Daku Gold Rum is a smooth golden rum with light caramel sweetness, soft spice notes, and a clean, balanced finish."
+    "description": "A smooth golden rum with notes of caramel, light molasses sweetness, and subtle vanilla, offering a balanced body and a warm, easy finish."
   },
   {
     "id": 398,
-    "name": "Seven Rivers Spiced Orange & Tropical Rum",
+    "name": "Seven Rivers",
     "category": "rum",
     "type": "dark",
     "price": 1150,
-    "size": "750ml",
+    "size": "700ml",
     "image": "images/rum/rum-imgs/398.webp",
-    "description": "Seven Rivers Spiced Orange & Tropical Rum combines smooth rum with citrus and tropical spice notes for a vibrant and refreshing flavor profile."
+    "description": "A smooth and balanced rum with gentle molasses sweetness, complemented by notes of caramel, vanilla, and light spice, delivering a mellow and warming finish."
   },
   {
     "id": 399,
-    "name": "Bagatell Clasico 8 Años Rum",
+    "name": "Bagatel Reserve Ocho",
     "category": "rum",
     "type": "dark",
     "price": 3400,
-    "size": "750ml",
+    "size": "700ml",
     "image": "images/rum/rum-imgs/399.webp",
-    "description": "Bagatell Clasico 8 Años Rum is aged for eight years, offering rich caramel, oak, and spice notes with a smooth and refined finish."
+    "description": "A rich and well-aged rum with deep notes of caramel, toasted oak, vanilla, and dried fruits, delivering a smooth, full-bodied character with a warm lingering finish."
   },
   {
     "id": 400,
-    "name": "Diplomático Mantuano Rum",
+    "name": "Diplomatico Mantvano",
     "category": "rum",
     "type": "dark",
     "price": 3450,
-    "size": "750ml",
+    "size": "700ml",
     "image": "images/rum/rum-imgs/400.webp",
-    "description": "Diplomático Mantuano Rum is a Venezuelan rum aged up to eight years, delivering rich flavors of dried fruit, vanilla, caramel, and oak."
+    "description": "A rich and complex Venezuelan rum with notes of caramel, dried fruits, vanilla, and oak, offering a smooth, full-bodied profile with a warm, balanced finish."
   },
   {
     "id": 401,
-    "name": "Diplomático Reserva Exclusiva Rum",
+    "name": "Diplomatico Reserve Exclusive",
     "category": "rum",
     "type": "dark",
     "price": 5555,
-    "size": "750ml",
+    "size": "700ml",
     "image": "images/rum/rum-imgs/401.webp",
-    "description": "Diplomático Reserva Exclusiva Rum is a premium Venezuelan rum known for its luxurious sweetness, dark chocolate notes, caramel richness, and silky finish."
+    "description": "A premium aged rum with a rich and velvety character, featuring notes of toffee, vanilla, dried fruits, and oak, finished with a smooth, long-lasting sweetness."
   },
   {
     "id": 402,
@@ -4187,9 +4187,9 @@
     "category": "rum",
     "type": "dark",
     "price": 2100,
-    "size": "750ml",
+    "size": "700ml",
     "image": "images/rum/rum-imgs/402.webp",
-    "description": "TH Heritage Royal Kesar Rum blends premium rum with aromatic saffron notes, creating a unique spiced profile with rich warmth and sweetness."
+    "description": "A unique rum infused with royal kesar (saffron), offering a smooth and aromatic profile with hints of warm spice, gentle sweetness, and a rich, flavorful finish."
   },
   {
     "id": 403,
@@ -4197,19 +4197,19 @@
     "category": "rum",
     "type": "dark",
     "price": 4850,
-    "size": "750ml",
+    "size": "700ml",
     "image": "images/rum/rum-imgs/403.webp",
-    "description": "The Bush Rum Passionfruit & Guava is a tropical flavored rum combining smooth rum with vibrant passionfruit and guava notes."
+    "description": "A vibrant tropical rum infused with passionfruit and guava, delivering bright fruity sweetness balanced with light citrus notes and a smooth, refreshing finish."
   },
   {
     "id": 404,
     "name": "The Bush Rum Mango",
     "category": "rum",
-    "type": "flavored",
+    "type": "dark",
     "price": 4850,
-    "size": "750ml",
+    "size": "700ml",
     "image": "images/rum/rum-imgs/404.webp",
-    "description": "The Bush Rum Mango is a fruity rum infused with ripe mango flavor, offering a tropical sweetness and smooth finish."
+    "description": "A tropical rum infused with ripe mango flavors, offering bright fruity sweetness, subtle citrus hints, and a smooth, refreshing finish."
   },
   {
     "id": 405,
@@ -4219,7 +4219,7 @@
     "price": 899,
     "size": "700ml",
     "image": "images/rum/rum-imgs/405.webp",
-    "description": "Afrohead Premium Aged Dark Rum is a smooth Caribbean-style rum aged in oak barrels. It delivers notes of caramel, vanilla, toasted oak, and warm spice with a rich, mellow finish."
+    "description": "A bold dark rum with rich molasses sweetness, layered with notes of caramel, toasted sugar, and warm spices, delivering a smooth and flavorful finish."
   },
   {
     "id": 406,
@@ -4229,27 +4229,27 @@
     "price": 1350,
     "size": "700ml",
     "image": "images/rum/rum-imgs/406.webp",
-    "description": "Sitara Spiced Rum is an aromatic spiced rum infused with traditional botanicals and warming spices. It offers hints of cinnamon, citrus, and sweet caramel balanced with smooth cane spirit."
+    "description": "A botanical spiced rum infused with aromatic herbs and warm spices, offering notes of vanilla, citrus peel, and subtle sweetness with a smooth, well-balanced finish."
   },
   {
     "id": 407,
-    "name": "Camikara 3YO Cask Aged Rum",
+    "name": "Camikara Rum Cask 3YO aged",
     "category": "rum",
     "type": "dark",
     "price": 1800,
     "size": "700ml",
     "image": "images/rum/rum-imgs/407.webp",
-    "description": "Camikara 3YO Cask Aged Rum is an Indian pure cane juice rum matured in oak casks. It reveals flavors of dried fruit, vanilla, honey, and gentle spice with a long refined finish."
+    "description": "A distinctive Indian rum aged in oak casks for three years, offering a smooth profile with notes of caramel, vanilla, light oak, and subtle sweetness with a refined finish."
   },
   {
     "id": 408,
-    "name": "Baromasa Mountain Edition Dark Rum",
+    "name": "Baro Masa Mountain Edition",
     "category": "rum",
     "type": "dark",
     "price": 1100,
     "size": "700ml",
     "image": "images/rum/rum-imgs/408.webp",
-    "description": "Baromasa Mountain Edition Dark Rum is crafted using natural spring water and cane sugar spirit. It offers a smooth profile with notes of caramel, toasted oak, and light spice."
+    "description": "A smooth and refined rum with notes of caramel, vanilla, and light oak, offering gentle sweetness and a warm, balanced finish inspired by mountain craftsmanship."
   },
   {
     "id": 409,
@@ -4259,7 +4259,7 @@
     "price": 1500,
     "size": "700ml",
     "image": "images/rum/rum-imgs/409.webp",
-    "description": "Satiwa Hemp Craft Rum is a distinctive pot-still rum crafted with hemp botanicals. It delivers earthy undertones, warm spice, and rich molasses sweetness."
+    "description": "A distinctive craft rum infused with hemp, offering a smooth and earthy profile with subtle herbal notes, gentle sweetness, and a clean, mellow finish."
   },
   {
     "id": 410,
@@ -4269,7 +4269,7 @@
     "price": 1320,
     "size": "700ml",
     "image": "images/rum/rum-imgs/410.webp",
-    "description": "Earth Rum is a craft rum designed with a bold artisanal character. It features a rich molasses base complemented by notes of spice, cocoa, and subtle oak."
+    "description": "A rustic spiced rum with a smooth molasses base, infused with warm spices, vanilla, and hints of caramel, delivering a rich aroma and a warm, balanced finish."
   },
   {
     "id": 411,
@@ -4277,39 +4277,39 @@
     "category": "rum",
     "type": "dark",
     "price": 195,
-    "size": "1000ml",
+    "size": "700ml",
     "image": "images/rum/rum-imgs/411.webp",
-    "description": "Pelican XXX Rum is a classic West Indies style dark rum known for its bold molasses sweetness, warming spice notes, and smooth traditional rum finish."
+    "description": "A bold and robust dark rum with rich molasses sweetness, accented by notes of caramel, toasted sugar, and warm spices, delivering a strong and warming finish."
   },
   {
     "id": 412,
-    "name": "Ashanti Spiced Red Hibiscus Rum",
+    "name": "Ashanti Spiced Red Hibiscus Flower",
     "category": "rum",
     "type": "dark",
     "price": 3450,
     "size": "700ml",
     "image": "images/rum/rum-imgs/412.webp",
-    "description": "Ashanti Spiced Red Hibiscus Rum blends premium rum with hibiscus flower and ginger spice. It offers vibrant floral notes balanced with warmth and sweetness."
+    "description": "A unique spiced rum infused with red hibiscus flowers, offering floral notes, gentle spice, and subtle sweetness with a smooth and aromatic finish."
   },
   {
     "id": 413,
-    "name": "Lost And Loud Tropical Spiced Rum",
+    "name": "Lost Years Tropical Spiced",
     "category": "rum",
     "type": "dark",
     "price": 1600,
     "size": "700ml",
     "image": "images/rum/rum-imgs/413.webp",
-    "description": "Lost And Loud Tropical Spiced Rum is crafted from select Caribbean rums. It showcases rich tropical fruit notes, vanilla, caramel, and a smooth maritime character."
+    "description": "A tropical spiced rum with bright fruit notes, warm spices, and hints of vanilla and caramel, delivering a smooth, vibrant, and refreshing finish."
   },
   {
     "id": 414,
-    "name": "Kama Kaapi Rum",
+    "name": "Kama Kappi Rum",
     "category": "rum",
     "type": "dark",
     "price": 1200,
     "size": "700ml",
     "image": "images/rum/rum-imgs/414.webp",
-    "description": "Kama Kaapi Rum is a premium coffee-infused rum blending Panamanian and Jamaican rums with rich coffee extracts for a bold, aromatic flavor."
+    "description": "A distinctive rum infused with coffee, offering rich roasted notes balanced with caramel sweetness and a smooth, warm finish."
   },
   {
     "id": 415,
@@ -4319,7 +4319,7 @@
     "price": 1450,
     "size": "700ml",
     "image": "images/rum/rum-imgs/415.webp",
-    "description": "Ochre Nutty Berry Rum is a small-batch craft rum combining berry sweetness, nutty warmth, honeyed notes, and gentle spice."
+    "description": "A flavorful rum with nutty and berry infusions, offering a smooth blend of sweet fruit notes, subtle roasted nuttiness, and a warm, balanced finish."
   },
   {
     "id": 416,
@@ -4329,86 +4329,316 @@
     "price": 1349,
     "size": "700ml",
     "image": "images/rum/rum-imgs/416.webp",
-    "description": "Ron De Santacruz is a traditional honey rum from the Canary Islands blending rum with natural honey for a smooth sweet finish."
+    "description": "A smooth and well-balanced rum with notes of caramel, light molasses sweetness, and subtle vanilla, delivering a mellow body and a warm finish."
   },
   {
     "id": 417,
-    "name": "Planteray Jamaican Dark Rum",
+    "name": "Planetary Jamaican Rum",
     "category": "rum",
     "type": "dark",
     "price": 7000,
     "size": "700ml",
     "image": "images/rum/rum-imgs/417.webp",
-    "description": "Planteray Original Dark Rum is a rich and full-bodied rum aged in American oak barrels with notes of caramel, cocoa, and baking spice."
+    "description": "A bold Jamaican-style rum with rich molasses sweetness, layered with notes of tropical fruit, caramel, and warm spices, delivering a full-bodied and vibrant finish."
   },
   {
     "id": 418,
-    "name": "Plantation Pineapple Rum",
+    "name": "Pineapple Planetary",
     "category": "rum",
     "type": "dark",
     "price": 4850,
     "size": "700ml",
     "image": "images/rum/rum-imgs/418.webp",
-    "description": "Plantation Pineapple Rum is a tropical rum infused with natural pineapple flavors inspired by historic Caribbean recipes."
+    "description": "A tropical rum infused with juicy pineapple flavors, offering bright fruity sweetness, subtle citrus notes, and a smooth, refreshing finish."
   },
   {
     "id": 419,
-    "name": "Pipa Rum de Goa",
+    "name": "Pipa Rum De Goa",
     "category": "rum",
     "type": "dark",
     "price": 3000,
-    "size": "500ml",
+    "size": "700ml",
     "image": "images/rum/rum-imgs/419.webp",
-    "description": "Pipa Rum de Goa is a handcrafted Goan rum distilled from local cane spirit and aged for a smooth tropical character."
+    "description": "A smooth Goan rum aged in oak casks, offering notes of caramel, vanilla, toasted oak, and gentle molasses sweetness with a warm, balanced finish."
   },
   {
     "id": 420,
-    "name": "Appleton Estate Aged 8 years Reserve Rum",
+    "name": "Appleton Estate Aged 8 years reserve",
     "category": "rum",
     "type": "dark",
     "price": 3650,
     "size": "700ml",
     "image": "images/rum/rum-imgs/420.webp",
-    "description": "Appleton Estate Signature Blend is a classic Jamaican rum offering rich tropical fruit notes, molasses sweetness, and gentle oak spice."
+    "description": "A well-aged Jamaican rum with a rich and smooth profile, featuring notes of caramel, toasted oak, vanilla, and dried fruits, finished with warm spice and balanced sweetness."
   },
   {
     "id": 421,
-    "name": "Appleton Estate 12 Year Rare Casks",
+    "name": "Appleton Estate Aged 12 years reserve",
     "category": "rum",
     "type": "dark",
     "price": 5000,
     "size": "700ml",
     "image": "images/rum/rum-imgs/421.webp",
-    "description": "Appleton Estate 12 Year Rare Casks is an aged Jamaican rum matured for twelve years delivering deep flavors of cocoa, orange peel, toasted oak, and spice."
+    "description": "A premium Jamaican rum aged for 12 years, offering a rich and complex profile with notes of toasted oak, vanilla, caramel, and dried fruits, finished with warm spice and smooth depth."
   },
   {
     "id": 422,
-    "name": "Mount Gay Eclipse Rum",
+    "name": "Mount Gay Barbudos Rum Eclipse",
     "category": "rum",
     "type": "dark",
     "price": 3450,
     "size": "700ml",
     "image": "images/rum/rum-imgs/422.webp",
-    "description": "Mount Gay Eclipse is a classic Barbados rum known for its balanced flavor of vanilla, banana, caramel, and gentle spice."
+    "description": "A classic Barbados rum with a smooth and balanced profile, featuring notes of vanilla, caramel, light oak, and subtle tropical fruit, finished with a warm and mellow spice."
   },
   {
     "id": 423,
-    "name": "Planteray 3 Stars White Rum",
+    "name": "Planetary 3 stars Jamaican Barbados Trinidad",
     "category": "rum",
     "type": "dark",
     "price": 2985,
     "size": "700ml",
     "image": "images/rum/rum-imgs/423.webp",
-    "description": "Planteray 3 Stars White Rum is a blend of Caribbean rums offering fresh citrus, tropical fruit, and subtle vanilla notes."
+    "description": "A vibrant blended rum crafted from Jamaican, Barbados, and Trinidad rums, offering a lively mix of tropical fruit, molasses sweetness, light spice, and a smooth balanced finish."
   },
   {
     "id": 424,
-    "name": "Barceló Ron Dominicano Rum",
+    "name": "barcelo Ron Dominicano",
     "category": "rum",
     "type": "dark",
     "price": 1649,
     "size": "700ml",
     "image": "images/rum/rum-imgs/424.webp",
-    "description": "Barceló Añejo Rum is a Dominican aged rum matured in oak barrels with flavors of caramel, vanilla, and warm spice."
+    "description": "A smooth Dominican rum with notes of caramel, vanilla, and light oak, offering gentle sweetness and a refined, well-balanced finish."
+  },
+  {
+    "id": 425,
+    "name": "Bacardi Anejo Cuarto Aged 4 years",
+    "category": "rum",
+    "type": "dark",
+    "price": 6200,
+    "size": "700ml",
+    "image": "images/rum/rum-imgs/425.webp",
+    "description": "A golden rum aged for four years in oak barrels, offering smooth notes of vanilla, caramel, toasted oak, and subtle honeyed sweetness with a clean, balanced finish."
+  },
+  {
+    "id": 426,
+    "name": "Flor De Cana Bourbon Barrel Aged",
+    "category": "rum",
+    "type": "dark",
+    "price": 5400,
+    "size": "700ml",
+    "image": "images/rum/rum-imgs/426.webp",
+    "description": "A smooth rum aged in bourbon barrels, offering rich notes of vanilla, toasted oak, caramel, and subtle spice, finished with a warm and balanced sweetness."
+  },
+  {
+    "id": 427,
+    "name": "The Lover's Rum",
+    "category": "rum",
+    "type": "dark",
+    "price": 8600,
+    "size": "700ml",
+    "image": "images/rum/rum-imgs/427.webp",
+    "description": "A smooth and aromatic rum with gentle molasses sweetness, layered with notes of caramel, vanilla, and subtle spice, delivering a warm and inviting finish."
+  },
+  {
+    "id": 428,
+    "name": "The Kroaken Black Spiced",
+    "category": "rum",
+    "type": "dark",
+    "price": 4850,
+    "size": "700ml",
+    "image": "images/rum/rum-imgs/428.webp",
+    "description": "A bold black spiced rum with rich molasses sweetness, infused with vanilla, cinnamon, and warm spices, delivering a dark, smooth, and intensely flavorful finish."
+  },
+  {
+    "id": 429,
+    "name": "Flor De Cana Centenario 12 years aged naturally",
+    "category": "rum",
+    "type": "dark",
+    "price": 6995,
+    "size": "700ml",
+    "image": "images/rum/rum-imgs/429.webp",
+    "description": "A premium rum aged naturally for 12 years, offering a rich and smooth profile with notes of toasted oak, vanilla, caramel, and dried fruits, finished with warm spice and refined depth."
+  },
+  {
+    "id": 430,
+    "name": "Camikara Rum Cask 12 y/o aged",
+    "category": "rum",
+    "type": "dark",
+    "price": 6500,
+    "size": "700ml",
+    "image": "images/rum/rum-imgs/430.webp",
+    "description": "A premium Indian rum aged for 12 years in oak casks, offering a rich and smooth profile with notes of caramel, vanilla, toasted oak, and gentle spice, finished with deep warmth and balance."
+  },
+  {
+    "id": 431,
+    "name": "Black By Bacardi Classic",
+    "category": "rum",
+    "type": "dark",
+    "price": 325,
+    "size": "700ml",
+    "image": "images/rum/rum-imgs/431.webp",
+    "description": "A bold and smooth dark rum with rich molasses sweetness, layered with notes of caramel, toasted oak, and subtle spice, delivering a deep and warming finish."
+  },
+  {
+    "id": 432,
+    "name": "Eston Mango Chilli",
+    "category": "rum",
+    "type": "dark",
+    "price": 715,
+    "size": "700ml",
+    "image": "images/rum/rum-imgs/432.webp",
+    "description": "A vibrant rum infused with mango and chilli, combining tropical sweetness with a gentle spicy kick, finished with a smooth and lively warmth."
+  },
+  {
+    "id": 433,
+    "name": "Eston Citrus Lemon",
+    "category": "rum",
+    "type": "white",
+    "price": 715,
+    "size": "700ml",
+    "image": "images/rum/rum-imgs/433.webp",
+    "description": "A bright citrus-infused rum with zesty lemon notes, balanced by light sweetness and a smooth, refreshing finish."
+  },
+  {
+    "id": 434,
+    "name": "Bacardi Guava",
+    "category": "rum",
+    "type": "white",
+    "price": 715,
+    "size": "700ml",
+    "image": "images/rum/rum-imgs/434.webp",
+    "description": "A tropical rum infused with juicy guava flavors, offering bright fruity sweetness, subtle floral notes, and a smooth, refreshing finish."
+  },
+  {
+    "id": 435,
+    "name": "Bacardi Ginger",
+    "category": "rum",
+    "type": "white",
+    "price": 715,
+    "size": "700ml",
+    "image": "images/rum/rum-imgs/435.webp",
+    "description": "A lively rum infused with ginger, delivering warm spicy notes balanced with light sweetness and a smooth, refreshing finish."
+  },
+  {
+    "id": 436,
+    "name": "Bacardi Carta Blanca",
+    "category": "rum",
+    "type": "white",
+    "price": 700,
+    "size": "700ml",
+    "image": "images/rum/rum-imgs/436.webp",
+    "description": "A light and smooth white rum with subtle notes of vanilla, almond, and gentle sweetness, finished with a clean and crisp character ideal for cocktails."
+  },
+  {
+    "id": 437,
+    "name": "Bacardi Carta ORO Superior OId Rum",
+    "category": "rum",
+    "type": "white",
+    "price": 715,
+    "size": "700ml",
+    "image": "images/rum/rum-imgs/437.webp",
+    "description": "A smooth golden rum with notes of caramel, vanilla, toasted oak, and light molasses sweetness, offering a balanced body and a warm, mellow finish."
+  },
+  {
+    "id": 438,
+    "name": "Baro Masa Lemon Rum",
+    "category": "rum",
+    "type": "white",
+    "price": 715,
+    "size": "700ml",
+    "image": "images/rum/rum-imgs/438.webp",
+    "description": "A refreshing rum infused with bright lemon flavors, offering zesty citrus notes balanced with light sweetness and a smooth, crisp finish."
+  },
+  {
+    "id": 439,
+    "name": "Viva El Ron Lemon Flavoured",
+    "category": "rum",
+    "type": "white",
+    "price": 1500,
+    "size": "700ml",
+    "image": "images/rum/rum-imgs/439.webp",
+    "description": "A lively rum infused with zesty lemon flavors, offering bright citrus notes, gentle sweetness, and a smooth, refreshing finish."
+  },
+  {
+    "id": 440,
+    "name": "Viva El Ron De Cuba",
+    "category": "rum",
+    "type": "white",
+    "price": 1500,
+    "size": "700ml",
+    "image": "images/rum/rum-imgs/440.webp",
+    "description": "A smooth Cuban-style rum with notes of light molasses, caramel, and vanilla, offering a balanced body and a warm, mellow finish."
+  },
+  {
+    "id": 441,
+    "name": "Eekh matured Agricultural Rum",
+    "category": "rum",
+    "type": "white",
+    "price": 3650,
+    "size": "700ml",
+    "image": "images/rum/rum-imgs/441.webp",
+    "description": "A refined agricultural rum crafted from fresh sugarcane juice and matured in oak, offering notes of grassy sweetness, light vanilla, and subtle spice with a smooth, balanced finish."
+  },
+  {
+    "id": 442,
+    "name": "Neoli Himalayan White Pure Single Rum",
+    "category": "rum",
+    "type": "white",
+    "price": 3000,
+    "size": "700ml",
+    "image": "images/rum/rum-imgs/442.webp",
+    "description": "A crisp Himalayan white rum crafted from pure sugarcane, offering a clean profile with light sweetness, subtle vanilla notes, and a smooth, refreshing finish."
+  },
+  {
+    "id": 443,
+    "name": "Diplomatico Planas",
+    "category": "rum",
+    "type": "white",
+    "price": 4850,
+    "size": "700ml",
+    "image": "images/rum/rum-imgs/443.webp",
+    "description": "A refined white rum aged and charcoal-filtered for smoothness, offering notes of coconut, vanilla, and light tropical fruit with a clean, creamy finish."
+  },
+  {
+    "id": 444,
+    "name": "Sitara Indian Craft Rum Barrel Aged",
+    "category": "rum",
+    "type": "white",
+    "price": 1200,
+    "size": "700ml",
+    "image": "images/rum/rum-imgs/444.webp",
+    "description": "A barrel-aged Indian craft rum with notes of caramel, vanilla, toasted oak, and gentle spice, delivering a smooth, rich, and well-balanced finish."
+  },
+  {
+    "id": 445,
+    "name": "Baro Masa White Rum",
+    "category": "rum",
+    "type": "white",
+    "price": 110,
+    "size": "700ml",
+    "image": "images/rum/rum-imgs/445.webp",
+    "description": "A clean and smooth white rum with light molasses sweetness, subtle vanilla notes, and a crisp, refreshing finish ideal for cocktails."
+  },
+  {
+    "id": 446,
+    "name": "Daku Silver Rum Chambal Collection",
+    "category": "rum",
+    "type": "white",
+    "price": 1690,
+    "size": "700ml",
+    "image": "images/rum/rum-imgs/446.webp",
+    "description": "A smooth silver rum with light molasses sweetness, subtle hints of vanilla and citrus, and a crisp, clean finish."
+  },
+  {
+    "id": 447,
+    "name": "McDowell's Citrus Rum Premium",
+    "category": "rum",
+    "type": "white",
+    "price": 600,
+    "size": "700ml",
+    "image": "images/rum/rum-imgs/447.webp",
+    "description": "A refreshing citrus-infused rum with bright lemon and orange notes, balanced by light sweetness and a smooth, lively finish."
   }
 ]

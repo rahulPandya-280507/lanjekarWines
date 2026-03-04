@@ -24,6 +24,8 @@ const filterStrength = document.getElementById("filter-strength");
 const filterWhiskeyType = document.getElementById("filter-whiskey-type");
 const filterWhiskeyStyle = document.getElementById("filter-whiskey-style");
 
+const filterRumType = document.getElementById("filter-rum-type");
+
 let allProducts = [];
 
 // =============================
@@ -132,6 +134,21 @@ function applyAllFilters() {
   }
 
   // ======================
+  // RUM FILTER
+  // ======================
+if (category === "rum") {
+    const selectedType = filterRumType ? filterRumType.value : "all";
+
+    filtered = filtered.filter((product) => {
+      const typeMatch =
+        selectedType === "all" || product.type.toLowerCase() === selectedType;
+
+      return typeMatch;
+    });
+  }
+
+
+  // ======================
   // SEARCH
   // ======================
   filtered = filtered.filter((product) =>
@@ -152,10 +169,12 @@ fetch("data/drinks.json")
     // Show filters ONLY for beer
     const beerFilters = document.getElementById("beer-filters");
     const whiskeyFilters = document.getElementById("whiskey-filters");
+    const rumFilters = document.getElementById("rum-filters");
 
     // Hide both first
     if (beerFilters) beerFilters.classList.remove("active");
     if (whiskeyFilters) whiskeyFilters.classList.remove("active");
+    if (rumFilters) rumFilters.classList.remove("active");
 
     // Show only correct one
     if (category === "beer" && beerFilters) {
@@ -164,6 +183,9 @@ fetch("data/drinks.json")
 
     if (category === "whiskey" && whiskeyFilters) {
       whiskeyFilters.classList.add("active");
+    }
+    if (category === "rum" && rumFilters) {
+      rumFilters.classList.add("active");
     }
 
     applyAllFilters();
@@ -183,6 +205,10 @@ if (filterWhiskeyType) {
 
 if (filterWhiskeyStyle) {
   filterWhiskeyStyle.addEventListener("change", applyAllFilters);
+}
+
+if(filterRumType) {
+  filterRumType.addEventListener("change", applyAllFilters);
 }
 
 if (searchInput) {

@@ -936,3 +936,34 @@ body.loaded {
     border-color: #d4af37;
     box-shadow: 0 0 8px rgba(212,175,55,0.4);
 }
+
+/* rum filters */
+.rum-filters {
+    margin-bottom: 40px;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.rum-filters select {
+    min-width: 220px;
+    padding: 12px 18px;
+    background: #1a1a1a;
+    color: white;
+    border: 1px solid #333;
+    border-radius: 8px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+/* Hover */
+.rum-filters select:hover {
+    border-color: #d4af37;
+}
+
+/* Focus */
+.rum-filters select:focus {
+    outline: none;
+    border-color: #d4af37;
+    box-shadow: 0 0 8px rgba(212,175,55,0.4);
+}

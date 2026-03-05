@@ -4685,5 +4685,41 @@
     "size": "700ml",
     "image": "images/absinthe/absinthe-imgs/452.webp",
     "description": "A distinctive absinthe with bold herbal notes of wormwood and anise, complemented by aromatic botanicals and a smooth, lingering finish."
+  },
+  {
+    "id": 453,
+    "name": "Cocalero South American Herbal Spirit",
+    "category": "herbal-spirit",
+    "price": 4195,
+    "size": "700ml",
+    "image": "images/herbal-spirit/herbal-spirit-imgs/453.webp",
+    "description": "A vibrant South American herbal spirit crafted with natural botanicals, offering fresh herbal notes, gentle citrus hints, and a smooth, refreshing finish."
+  },
+  {
+    "id": 454,
+    "name": "Metaxa The Original Greek Spirit",
+    "category": "herbal-spirit",
+    "price": 6750,
+    "size": "700ml",
+    "image": "images/herbal-spirit/herbal-spirit-imgs/454.webp",
+    "description": "A smooth Greek spirit blending aged brandy with Mediterranean botanicals and Muscat wine, offering notes of honey, dried fruits, and gentle spice with a warm, refined finish."
+  },
+  {
+    "id": 455,
+    "name": "Schwartzhog Krauter Liqueur",
+    "category": "herbal-spirit",
+    "price": 2550,
+    "size": "700ml",
+    "image": "images/herbal-spirit/herbal-spirit-imgs/455.webp",
+    "description": "A herbal liqueur crafted with a blend of natural botanicals, offering complex notes of herbs, citrus peel, and gentle spice with a smooth, bittersweet finish."
+  },
+  {
+    "id": 456,
+    "name": "Jagermeister",
+    "category": "herbal-spirit",
+    "price": 3390,
+    "size": "700ml",
+    "image": "images/herbal-spirit/herbal-spirit-imgs/456.webp",
+    "description": "A bold herbal liqueur crafted from a blend of 56 botanicals, offering notes of herbs, citrus peel, licorice, and warm spices with a smooth bittersweet finish."
   }
 ]

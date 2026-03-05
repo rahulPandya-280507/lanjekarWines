@@ -4011,7 +4011,7 @@
     "image": "images/whiskey/whiskey-imgs/384.webp",
     "description": "Raotas Blended Scotch Whisky combines select malt and grain whiskies to create a balanced profile with notes of caramel, vanilla, light smoke, and gentle oak."
   },
-   {
+  {
     "id": 385,
     "name": "Old Monk Gold Reserve",
     "category": "rum",
@@ -4721,5 +4721,185 @@
     "size": "700ml",
     "image": "images/herbal-spirit/herbal-spirit-imgs/456.webp",
     "description": "A bold herbal liqueur crafted from a blend of 56 botanicals, offering notes of herbs, citrus peel, licorice, and warm spices with a smooth bittersweet finish."
+  },
+  {
+    "id": 457,
+    "name": "Pistola Aguavepura Phoenix Anejo",
+    "category": "agave",
+    "price": 6999,
+    "size": "700ml",
+    "image": "images/agave/agave-imgs/457.webp",
+    "description": "A rich añejo agave spirit aged in oak barrels, offering notes of caramel, vanilla, toasted oak, and warm spice with a smooth, full-bodied finish."
+  },
+  {
+    "id": 458,
+    "name": "Pistola Aguavepura Anejo",
+    "category": "agave",
+    "price": 4499,
+    "size": "700ml",
+    "image": "images/agave/agave-imgs/458.webp",
+    "description": "A smooth añejo agave spirit aged in oak barrels, featuring notes of caramel, vanilla, toasted oak, and gentle spice with a rich, balanced finish."
+  },
+  {
+    "id": 459,
+    "name": "Pistola Aguavepura Reposado",
+    "category": "agave",
+    "price": 3285,
+    "size": "700ml",
+    "image": "images/agave/agave-imgs/459.webp",
+    "description": "A smooth reposado agave spirit rested in oak barrels, offering notes of vanilla, caramel, light oak, and gentle spice with a warm, balanced finish."
+  },
+  {
+    "id": 460,
+    "name": "Pistola Aguavepura Joven",
+    "category": "agave",
+    "price": 2845,
+    "size": "700ml",
+    "image": "images/agave/agave-imgs/460.webp",
+    "description": "A vibrant joven agave spirit with bright herbal notes, light citrus hints, and gentle sweetness, delivering a crisp and smooth finish."
+  },
+  {
+    "id": 461,
+    "name": "Villa Vercelli Blanco",
+    "category": "agave",
+    "price": 3900,
+    "size": "700ml",
+    "image": "images/agave/agave-imgs/461.webp",
+    "description": "A crisp blanco agave spirit with fresh herbal notes, hints of citrus and pepper, and a clean, smooth finish."
+  },
+  {
+    "id": 462,
+    "name": "Casa Claro Blanco Agave",
+    "category": "agave",
+    "price": 1800,
+    "size": "700ml",
+    "image": "images/agave/agave-imgs/462.webp",
+    "description": "A clean and vibrant agave spirit with fresh herbal notes, light citrus hints, and a smooth, crisp finish."
+  },
+  {
+    "id": 463,
+    "name": "Casa Claro Picante Agave",
+    "category": "agave",
+    "price": 1800,
+    "size": "700ml",
+    "image": "images/agave/agave-imgs/463.webp",
+    "description": "A bold agave spirit infused with spicy peppers, offering bright herbal notes, gentle heat, and a smooth, lively finish."
+  },
+  {
+    "id": 464,
+    "name": "Gracia Viva Agave PassionFruit",
+    "category": "agave",
+    "price": 2100,
+    "size": "700ml",
+    "image": "images/agave/agave-imgs/464.webp",
+    "description": "A vibrant agave spirit infused with passionfruit, offering bright tropical sweetness, subtle citrus notes, and a smooth, refreshing finish."
+  },
+  {
+    "id": 465,
+    "name": "Gracia Viva Agave Yuzzu",
+    "category": "agave",
+    "price": 2100,
+    "size": "700ml",
+    "image": "images/agave/agave-imgs/465.webp",
+    "description": "A refreshing agave spirit infused with yuzu, offering bright citrus notes, light sweetness, and a crisp, smooth finish."
+  },
+  {
+    "id": 466,
+    "name": "Gracia Viva Agave Wildy Raw",
+    "category": "agave",
+    "price": 2100,
+    "size": "700ml",
+    "image": "images/agave/agave-imgs/466.webp",
+    "description": "A bold agave spirit with a raw, earthy character, offering herbal notes, subtle spice, and a smooth, natural finish."
+  },
+  {
+    "id": 467,
+    "name": "Gracia Viva Agave Blueberry",
+    "category": "agave",
+    "price": 2100,
+    "size": "700ml",
+    "image": "images/agave/agave-imgs/467.webp",
+    "description": "A vibrant agave spirit infused with blueberry, offering juicy berry sweetness, light citrus hints, and a smooth, refreshing finish."
+  },
+  {
+    "id": 468,
+    "name": "Gracia Viva Agave Ferry Foss",
+    "category": "agave",
+    "price": 2100,
+    "size": "700ml",
+    "image": "images/agave/agave-imgs/468.webp",
+    "description": "A distinctive agave spirit with a fresh herbal profile, complemented by subtle citrus notes, gentle sweetness, and a smooth, refreshing finish."
+  },
+  {
+    "id": 469,
+    "name": "Agave 51 craft Indian Agave",
+    "category": "agave",
+    "price": 900,
+    "size": "700ml",
+    "image": "images/agave/agave-imgs/469.webp",
+    "description": "A handcrafted Indian agave spirit with bright herbal notes, hints of citrus and pepper, and a smooth, crisp finish."
+  },
+  {
+    "id": 470,
+    "name": "Ayam (Desmondji) Indian Agave",
+    "category": "agave",
+    "price": 1320,
+    "size": "700ml",
+    "image": "images/agave/agave-imgs/470.webp",
+    "description": "A distinctive Indian agave spirit with fresh herbal notes, light citrus hints, and subtle peppery spice, delivering a smooth and vibrant finish."
+  },
+  {
+    "id": 471,
+    "name": "Cabron Destilado De Agave Blanco",
+    "category": "agave",
+    "price": 1610,
+    "size": "700ml",
+    "image": "images/agave/agave-imgs/471.webp",
+    "description": "A crisp blanco agave spirit with bright herbal notes, hints of citrus and pepper, and a clean, smooth finish."
+  },
+  {
+    "id": 472,
+    "name": "Goonda Strawberry Liqueur Agave",
+    "category": "agave",
+    "price": 2699,
+    "size": "700ml",
+    "image": "images/agave/agave-imgs/472.webp",
+    "description": "A sweet agave-based liqueur infused with ripe strawberry flavors, offering juicy berry notes balanced with light citrus and a smooth, refreshing finish."
+  },
+  {
+    "id": 473,
+    "name": "Goonda Picante Agave",
+    "category": "agave",
+    "price": 2699,
+    "size": "700ml",
+    "image": "images/agave/agave-imgs/473.webp",
+    "description": "A bold agave spirit infused with spicy peppers, offering bright herbal notes, lively heat, and a smooth, vibrant finish."
+  },
+  {
+    "id": 474,
+    "name": "Goonda Reposado Agave",
+    "category": "agave",
+    "price": 2699,
+    "size": "700ml",
+    "image": "images/agave/agave-imgs/474.webp",
+    "description": "A smooth reposado agave spirit rested in oak barrels, offering notes of vanilla, caramel, light oak, and gentle spice with a warm, balanced finish."
+  },
+  {
+    "id": 475,
+    "name": "Goonda Cafe Liqueur Agave",
+    "category": "agave",
+    "price": 2699,
+    "size": "700ml",
+    "image": "images/agave/agave-imgs/475.webp",
+    "description": "A rich agave-based coffee liqueur with bold roasted notes, balanced by hints of caramel sweetness and a smooth, warming finish."
+  },
+  {
+    "id": 476,
+    "name": "Villa Vercelli Silver Hecho EN Mexico",
+    "category": "agave",
+    "price": 1850,
+    "size": "700ml",
+    "image": "images/agave/agave-imgs/476.webp",
+    "description": "A crisp silver agave spirit crafted in Mexico, offering fresh herbal notes, hints of citrus and pepper, and a clean, smooth finish."
   }
 ]

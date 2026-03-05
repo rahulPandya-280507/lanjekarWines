@@ -4640,5 +4640,50 @@
     "size": "700ml",
     "image": "images/rum/rum-imgs/447.webp",
     "description": "A refreshing citrus-infused rum with bright lemon and orange notes, balanced by light sweetness and a smooth, lively finish."
+  },
+  {
+    "id": 448,
+    "category": "absinthe",
+    "name": "Xenta",
+    "price": 4850,
+    "size": "700ml",
+    "image": "images/absinthe/absinthe-imgs/448.webp",
+    "description": "A classic absinthe with bold herbal character, featuring notes of wormwood, anise, and aromatic botanicals, balanced by a smooth and lingering finish."
+  },
+  {
+    "id": 449,
+    "category": "absinthe",
+    "name": "Paapi Coffee",
+    "price": 4850,
+    "size": "700ml",
+    "image": "images/absinthe/absinthe-imgs/449.webp",
+    "description": "A bold coffee-infused absinthe with rich roasted notes, layered with herbal bitterness and subtle sweetness, delivering a smooth and distinctive finish."
+  },
+  {
+    "id": 450,
+    "category": "absinthe",
+    "name": "Absente",
+    "price": 3750,
+    "size": "700ml",
+    "image": "images/absinthe/absinthe-imgs/450.webp",
+    "description": "A refined absinthe with a smooth herbal profile, featuring notes of wormwood, anise, and aromatic botanicals, finished with gentle sweetness and balanced bitterness."
+  },
+  {
+    "id": 451,
+    "category": "absinthe",
+    "name": "La Ananta",
+    "price": 2895,
+    "size": "700ml",
+    "image": "images/absinthe/absinthe-imgs/451.webp",
+    "description": "A smooth absinthe with a balanced herbal profile, featuring notes of wormwood, anise, and aromatic botanicals, finished with gentle sweetness and a lingering herbal bitterness."
+  },
+  {
+    "id": 452,
+    "category": "absinthe",
+    "name": "Indian",
+    "price": 1320,
+    "size": "700ml",
+    "image": "images/absinthe/absinthe-imgs/452.webp",
+    "description": "A distinctive absinthe with bold herbal notes of wormwood and anise, complemented by aromatic botanicals and a smooth, lingering finish."
   }
 ]

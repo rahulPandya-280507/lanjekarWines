@@ -52,11 +52,19 @@ function openModal(product) {
 
   modal.classList.add("active");
   document.body.style.overflow = "hidden";
+
+  // Add history state so back button closes modal
+  history.pushState({ modalOpen: true }, "");
 }
 
 function closeModal() {
   modal.classList.remove("active");
   document.body.style.overflow = "auto";
+
+  // Go back in history if modal was opened
+  if (history.state && history.state.modalOpen) {
+    history.back();
+  }
 }
 
 // =============================
@@ -261,5 +269,14 @@ if (modal) {
 document.addEventListener("keydown", (e) => {
   if (e.key === "Escape" && modal.classList.contains("active")) {
     closeModal();
+  }
+});
+
+
+// Handle mobile back button
+window.addEventListener("popstate", () => {
+  if (modal.classList.contains("active")) {
+    modal.classList.remove("active");
+    document.body.style.overflow = "auto";
   }
 });

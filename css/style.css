@@ -185,8 +185,12 @@ body {
     background-image: url('../images/feni/feni.webp');
 }
 .category-card.liqour {
-    background-image: url('../images/liqour/liqour.webp');
+    background-image: url('../images/liqour/liquor.webp');
 }
+.category-card.champagne {
+    background-image: url('../images/champagne/champagne.webp');
+}
+
 
 /* ============================= */
 /* RESPONSIVE DESIGN */
@@ -963,6 +967,37 @@ body.loaded {
 
 /* Focus */
 .rum-filters select:focus {
+    outline: none;
+    border-color: #d4af37;
+    box-shadow: 0 0 8px rgba(212,175,55,0.4);
+}
+
+/* wine filters  */
+.wine-filters {
+    margin-bottom: 40px;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.wine-filters select {
+    min-width: 220px;
+    padding: 12px 18px;
+    background: #1a1a1a;
+    color: white;
+    border: 1px solid #333;
+    border-radius: 8px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+/* Hover */
+.wine-filters select:hover {
+    border-color: #d4af37;
+}
+
+/* Focus */
+.wine-filters select:focus {
     outline: none;
     border-color: #d4af37;
     box-shadow: 0 0 8px rgba(212,175,55,0.4);

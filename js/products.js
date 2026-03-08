@@ -30,6 +30,8 @@ const filterWineType = document.getElementById("filter-wine-type");
 
 const filterFeniType = document.getElementById("filter-feni-type");
 
+const filterBrandyType = document.getElementById("filter-brandy-type");
+
 let allProducts = [];
 
 // =============================
@@ -148,7 +150,7 @@ function applyAllFilters() {
   // ======================
   // RUM FILTER
   // ======================
-if (category === "rum") {
+  if (category === "rum") {
     const selectedType = filterRumType ? filterRumType.value : "all";
 
     filtered = filtered.filter((product) => {
@@ -175,9 +177,23 @@ if (category === "rum") {
 
   // ======================
   // FENI FILTER
-  // ======================  
-    if (category === "feni") {
+  // ======================
+  if (category === "feni") {
     const selectedType = filterFeniType ? filterFeniType.value : "all";
+
+    filtered = filtered.filter((product) => {
+      const typeMatch =
+        selectedType === "all" || product.type.toLowerCase() === selectedType;
+
+      return typeMatch;
+    });
+  }
+
+  // ======================
+  // BRANDY FILTER
+  // ======================
+  if (category === "brandy") {
+    const selectedType = filterBrandyType ? filterBrandyType.value : "all";
 
     filtered = filtered.filter((product) => {
       const typeMatch =
@@ -211,13 +227,15 @@ fetch("data/drinks.json")
     const rumFilters = document.getElementById("rum-filters");
     const wineFilters = document.getElementById("wine-filters");
     const feniFilters = document.getElementById("feni-filters");
+    const brandyFilters = document.getElementById("brandy-filters");
 
     // Hide both first
     if (beerFilters) beerFilters.classList.remove("active");
     if (whiskeyFilters) whiskeyFilters.classList.remove("active");
     if (rumFilters) rumFilters.classList.remove("active");
-    if(wineFilters) wineFilters.classList.remove("active");
-    if(feniFilters) feniFilters.classList.remove("active");
+    if (wineFilters) wineFilters.classList.remove("active");
+    if (feniFilters) feniFilters.classList.remove("active");
+    if (brandyFilters) brandyFilters.classList.remove("active");
 
     // Show only correct one
     if (category === "beer" && beerFilters) {
@@ -230,11 +248,14 @@ fetch("data/drinks.json")
     if (category === "rum" && rumFilters) {
       rumFilters.classList.add("active");
     }
-    if(category === "wine" && wineFilters) {
+    if (category === "wine" && wineFilters) {
       wineFilters.classList.add("active");
     }
-    if(category == "feni" && feniFilters) {
+    if (category == "feni" && feniFilters) {
       feniFilters.classList.add("active");
+    }
+    if (category == "brandy" && brandyFilters) {
+      brandyFilters.classList.add("active");
     }
 
     applyAllFilters();
@@ -256,16 +277,20 @@ if (filterWhiskeyStyle) {
   filterWhiskeyStyle.addEventListener("change", applyAllFilters);
 }
 
-if(filterRumType) {
+if (filterRumType) {
   filterRumType.addEventListener("change", applyAllFilters);
 }
 
-if(filterWineType) {
+if (filterWineType) {
   filterWineType.addEventListener("change", applyAllFilters);
 }
 
-if(filterFeniType) {
+if (filterFeniType) {
   filterFeniType.addEventListener("change", applyAllFilters);
+}
+
+if (filterBrandyType) {
+  filterBrandyType.addEventListener("change", applyAllFilters);
 }
 
 if (searchInput) {
@@ -295,7 +320,6 @@ document.addEventListener("keydown", (e) => {
     closeModal();
   }
 });
-
 
 // Handle mobile back button
 window.addEventListener("popstate", () => {

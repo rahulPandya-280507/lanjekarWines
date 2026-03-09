@@ -32,6 +32,8 @@ const filterFeniType = document.getElementById("filter-feni-type");
 
 const filterBrandyType = document.getElementById("filter-brandy-type");
 
+const filterChampagneType = document.getElementById("filter-champagne-type");
+
 let allProducts = [];
 
 // =============================
@@ -204,6 +206,20 @@ function applyAllFilters() {
   }
 
   // ======================
+  // CHAMPAGNE FILTER
+  // ======================
+  if (category === "brandy") {
+    const selectedType = filterChampagneType ? filterChampagneType.value : "all";
+
+    filtered = filtered.filter((product) => {
+      const typeMatch =
+        selectedType === "all" || product.type.toLowerCase() === selectedType;
+
+      return typeMatch;
+    });
+  }
+
+  // ======================
   // SEARCH
   // ======================
   filtered = filtered.filter((product) =>
@@ -228,6 +244,7 @@ fetch("data/drinks.json")
     const wineFilters = document.getElementById("wine-filters");
     const feniFilters = document.getElementById("feni-filters");
     const brandyFilters = document.getElementById("brandy-filters");
+    const champagneFilters = document.getElementById("champagne-filters");
 
     // Hide both first
     if (beerFilters) beerFilters.classList.remove("active");
@@ -236,6 +253,7 @@ fetch("data/drinks.json")
     if (wineFilters) wineFilters.classList.remove("active");
     if (feniFilters) feniFilters.classList.remove("active");
     if (brandyFilters) brandyFilters.classList.remove("active");
+    if(champagneFilters) champagneFilters.classList.remove("active");
 
     // Show only correct one
     if (category === "beer" && beerFilters) {
@@ -256,6 +274,9 @@ fetch("data/drinks.json")
     }
     if (category == "brandy" && brandyFilters) {
       brandyFilters.classList.add("active");
+    }
+    if (category == "champagne" && champagneFilters) {
+      champagneFilters.classList.add("active");
     }
 
     applyAllFilters();
@@ -291,6 +312,10 @@ if (filterFeniType) {
 
 if (filterBrandyType) {
   filterBrandyType.addEventListener("change", applyAllFilters);
+}
+
+if (filterChampagneType) {
+  filterChampagneType.addEventListener("change", applyAllFilters);
 }
 
 if (searchInput) {

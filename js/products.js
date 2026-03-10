@@ -208,7 +208,7 @@ function applyAllFilters() {
   // ======================
   // CHAMPAGNE FILTER
   // ======================
-  if (category === "brandy") {
+  if (category === "champagne") {
     const selectedType = filterChampagneType ? filterChampagneType.value : "all";
 
     filtered = filtered.filter((product) => {

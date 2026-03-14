@@ -23,6 +23,7 @@ const filterStrength = document.getElementById("filter-strength");
 
 const filterWhiskeyType = document.getElementById("filter-whiskey-type");
 const filterWhiskeyStyle = document.getElementById("filter-whiskey-style");
+const filterWhiskeyPrice = document.getElementById("filter-whiskey-price");
 
 const filterRumType = document.getElementById("filter-rum-type");
 
@@ -33,6 +34,10 @@ const filterFeniType = document.getElementById("filter-feni-type");
 const filterBrandyType = document.getElementById("filter-brandy-type");
 
 const filterChampagneType = document.getElementById("filter-champagne-type");
+
+const filterSojuType = document.getElementById("filter-soju-type");
+
+const filterTequilaType = document.getElementById("filter-tequila-type");
 
 let allProducts = [];
 
@@ -136,6 +141,7 @@ function applyAllFilters() {
   if (category === "whiskey") {
     const selectedType = filterWhiskeyType ? filterWhiskeyType.value : "all";
     const selectedStyle = filterWhiskeyStyle ? filterWhiskeyStyle.value : "all";
+    const selectedPrice = filterWhiskeyPrice ? filterWhiskeyPrice.value : "all";
 
     filtered = filtered.filter((product) => {
       const typeMatch =
@@ -145,7 +151,11 @@ function applyAllFilters() {
         selectedStyle === "all" ||
         product.style.toLowerCase() === selectedStyle;
 
-      return typeMatch && styleMatch;
+      const priceMatch =
+        selectedPrice === "all" ||
+        product.typePrice.toLowerCase() === selectedPrice;
+
+      return typeMatch && styleMatch && priceMatch;
     });
   }
 
@@ -209,7 +219,53 @@ function applyAllFilters() {
   // CHAMPAGNE FILTER
   // ======================
   if (category === "champagne") {
-    const selectedType = filterChampagneType ? filterChampagneType.value : "all";
+    const selectedType = filterChampagneType
+      ? filterChampagneType.value
+      : "all";
+
+    filtered = filtered.filter((product) => {
+      const typeMatch =
+        selectedType === "all" || product.type.toLowerCase() === selectedType;
+
+      return typeMatch;
+    });
+  }
+
+  // ======================
+  // CHAMPAGNE FILTER
+  // ======================
+  if (category === "champagne") {
+    const selectedType = filterChampagneType
+      ? filterChampagneType.value
+      : "all";
+
+    filtered = filtered.filter((product) => {
+      const typeMatch =
+        selectedType === "all" || product.type.toLowerCase() === selectedType;
+
+      return typeMatch;
+    });
+  }
+
+  // ======================
+  // SOJU FILTER
+  // ======================
+  if (category === "soju") {
+    const selectedType = filterSojuType ? filterSojuType.value : "all";
+
+    filtered = filtered.filter((product) => {
+      const typeMatch =
+        selectedType === "all" || product.type.toLowerCase() === selectedType;
+
+      return typeMatch;
+    });
+  }
+
+  // ======================
+  // TEQUILA FILTER
+  // ======================
+  if (category === "tequila") {
+    const selectedType = filterTequilaType ? filterTequilaType.value : "all";
 
     filtered = filtered.filter((product) => {
       const typeMatch =
@@ -245,6 +301,8 @@ fetch("data/drinks.json")
     const feniFilters = document.getElementById("feni-filters");
     const brandyFilters = document.getElementById("brandy-filters");
     const champagneFilters = document.getElementById("champagne-filters");
+    const sojuFilters = document.getElementById("soju-filters");
+    const tequilaFilters = document.getElementById("tequila-filters");
 
     // Hide both first
     if (beerFilters) beerFilters.classList.remove("active");
@@ -253,7 +311,9 @@ fetch("data/drinks.json")
     if (wineFilters) wineFilters.classList.remove("active");
     if (feniFilters) feniFilters.classList.remove("active");
     if (brandyFilters) brandyFilters.classList.remove("active");
-    if(champagneFilters) champagneFilters.classList.remove("active");
+    if (champagneFilters) champagneFilters.classList.remove("active");
+    if (sojuFilters) sojuFilters.classList.remove("active");
+    if(tequilaFilters) tequilaFilters.classList.remove("active");
 
     // Show only correct one
     if (category === "beer" && beerFilters) {
@@ -278,6 +338,12 @@ fetch("data/drinks.json")
     if (category == "champagne" && champagneFilters) {
       champagneFilters.classList.add("active");
     }
+    if (category == "soju" && sojuFilters) {
+      sojuFilters.classList.add("active");
+    }
+    if (category == "tequila" && tequilaFilters) {
+      tequilaFilters.classList.add("active");
+    }
 
     applyAllFilters();
   })
@@ -298,6 +364,10 @@ if (filterWhiskeyStyle) {
   filterWhiskeyStyle.addEventListener("change", applyAllFilters);
 }
 
+if (filterWhiskeyPrice) {
+  filterWhiskeyPrice.addEventListener("change", applyAllFilters);
+}
+
 if (filterRumType) {
   filterRumType.addEventListener("change", applyAllFilters);
 }
@@ -316,6 +386,14 @@ if (filterBrandyType) {
 
 if (filterChampagneType) {
   filterChampagneType.addEventListener("change", applyAllFilters);
+}
+
+if (filterSojuType) {
+  filterSojuType.addEventListener("change", applyAllFilters);
+}
+
+if (filterTequilaType) {
+  filterTequilaType.addEventListener("change", applyAllFilters);
 }
 
 if (searchInput) {

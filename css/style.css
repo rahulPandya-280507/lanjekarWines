@@ -193,6 +193,15 @@ body {
 .category-card.brandy {
     background-image: url('../images/brandy/brandy.webp');
 }
+.category-card.ready-to-drink {
+    background-image: url('../images/ready-to-drink/ready-to-drink.webp');
+}
+.category-card.soju {
+    background-image: url('../images/soju/soju.webp');
+}
+.category-card.tequila {
+    background-image: url('../images/tequila/tequila.webp');
+}
 
 
 /* ============================= */
@@ -1094,6 +1103,68 @@ body.loaded {
 
 /* Focus */
 .champagne-filters select:focus {
+    outline: none;
+    border-color: #d4af37;
+    box-shadow: 0 0 8px rgba(212,175,55,0.4);
+}
+
+/* soju filters  */
+.soju-filters {
+    margin-bottom: 40px;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.soju-filters select {
+    min-width: 220px;
+    padding: 12px 18px;
+    background: #1a1a1a;
+    color: white;
+    border: 1px solid #333;
+    border-radius: 8px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+/* Hover */
+.soju-filters select:hover {
+    border-color: #d4af37;
+}
+
+/* Focus */
+.soju-filters select:focus {
+    outline: none;
+    border-color: #d4af37;
+    box-shadow: 0 0 8px rgba(212,175,55,0.4);
+}
+
+/* tequila filters  */
+.tequila-filters {
+    margin-bottom: 40px;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.tequila-filters select {
+    min-width: 220px;
+    padding: 12px 18px;
+    background: #1a1a1a;
+    color: white;
+    border: 1px solid #333;
+    border-radius: 8px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+/* Hover */
+.tequila-filters select:hover {
+    border-color: #d4af37;
+}
+
+/* Focus */
+.tequila-filters select:focus {
     outline: none;
     border-color: #d4af37;
     box-shadow: 0 0 8px rgba(212,175,55,0.4);

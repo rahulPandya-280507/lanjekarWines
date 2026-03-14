@@ -1566,12 +1566,12 @@
   },
   {
     "id": 158,
-    "name": "Solo Gold",
+    "name": "Stoli Gold",
     "category": "vodka",
     "price": 3150,
     "size": "650ml",
     "image": "images/vodka/vodka-imgs/158.webp",
-    "description": "Solo Gold – A smooth and refined spirit known for its balanced character and clean finish. It offers subtle notes with a crisp, refreshing taste, making it ideal for chilled shots or mixing into classic cocktails. 🍸"
+    "description": "Stoli Gold – A smooth and refined spirit known for its balanced character and clean finish. It offers subtle notes with a crisp, refreshing taste, making it ideal for chilled shots or mixing into classic cocktails. 🍸"
   },
   {
     "id": 159,
@@ -2628,7 +2628,7 @@
   },
   {
     "id": 250,
-    "name": "Kadamba Irish Single Malt Agave Barrel",
+    "name": "Kadamba Single Malt Agave Barrel",
     "category": "whiskey",
     "type": "other",
     "style": "single malt",
@@ -2640,7 +2640,7 @@
   },
   {
     "id": 251,
-    "name": "Kadamba Irish Single Malt Champagne Finish",
+    "name": "Kadamba Single Malt Champagne Finish",
     "category": "whiskey",
     "type": "other",
     "style": "single malt",
@@ -9910,8 +9910,8 @@
     "image": "images/soju/soju-imgs/1007.webp",
     "name": "Seoulmate Black Grape",
     "price": 550,
-    "description": "Regular",
-    "": "Korean-style flavored soju with rich black grape sweetness, smooth body, and an easy refreshing finish."
+    "type": "regular",
+    "description": "Korean-style flavored soju with rich black grape sweetness, smooth body, and an easy refreshing finish."
   },
   {
     "id": 1008,
@@ -9919,8 +9919,8 @@
     "image": "images/soju/soju-imgs/1008.webp",
     "name": "Seoulmate Strawberry Mint",
     "price": 550,
-    "description": "Regular",
-    "": "A fruity soju blend combining sweet strawberry with fresh mint for a bright and refreshing drink."
+    "type": "regular",
+    "description": "A fruity soju blend combining sweet strawberry with fresh mint for a bright and refreshing drink."
   },
   {
     "id": 1009,
@@ -9928,8 +9928,8 @@
     "image": "images/soju/soju-imgs/1009.webp",
     "name": "Seoulmate Pink Guava Chillie",
     "price": 550,
-    "description": "Regular",
-    "": "Tropical pink guava flavored soju with a mild chilli kick that balances sweetness with subtle spice."
+    "type": "regular",
+    "description": "Tropical pink guava flavored soju with a mild chilli kick that balances sweetness with subtle spice."
   },
   {
     "id": 1010,
@@ -9937,8 +9937,8 @@
     "image": "images/soju/soju-imgs/1010.webp",
     "name": "Seoulmate Watermelon Bubblegum",
     "price": 550,
-    "description": "Regular",
-    "": "Playful watermelon flavored soju with bubblegum sweetness and a smooth fruity finish."
+    "type": "regular",
+    "description": "Playful watermelon flavored soju with bubblegum sweetness and a smooth fruity finish."
   },
   {
     "id": 1011,
@@ -9946,8 +9946,8 @@
     "image": "images/soju/soju-imgs/1011.webp",
     "name": "Seoulmate Peach Iced Tea",
     "price": 550,
-    "description": "Regular",
-    "": "Smooth soju infused with peach iced tea flavors offering sweet peach notes and a refreshing finish."
+    "type": "regular",
+    "description": "Smooth soju infused with peach iced tea flavors offering sweet peach notes and a refreshing finish."
   },
   {
     "id": 1012,
@@ -9955,8 +9955,8 @@
     "image": "images/soju/soju-imgs/1012.webp",
     "name": "Mino Berry Bliss",
     "price": 350,
-    "description": "Regular",
-    "": "Light and fruity soju with mixed berry sweetness and a soft, smooth drinking profile."
+    "type": "regular",
+    "description": "Light and fruity soju with mixed berry sweetness and a soft, smooth drinking profile."
   },
   {
     "id": 1013,
@@ -9964,8 +9964,8 @@
     "image": "images/soju/soju-imgs/1013.webp",
     "name": "Mino Sundaze",
     "price": 350,
-    "description": "Regular",
-    "": "Easy-drinking flavored soju with tropical fruit notes designed for casual refreshing sipping."
+    "type": "regular",
+    "description": "Easy-drinking flavored soju with tropical fruit notes designed for casual refreshing sipping."
   },
   {
     "id": 1014,
@@ -9973,8 +9973,8 @@
     "image": "images/soju/soju-imgs/1014.webp",
     "name": "Jeonju Watermelon",
     "price": 650,
-    "description": "Regular",
-    "": "Premium Korean watermelon flavored soju with juicy fruit sweetness and a crisp finish."
+    "type": "regular",
+    "description": "Premium Korean watermelon flavored soju with juicy fruit sweetness and a crisp finish."
   },
   {
     "id": 1015,
@@ -9982,8 +9982,8 @@
     "image": "images/soju/soju-imgs/1015.webp",
     "name": "Jeonju Yoghurt",
     "price": 650,
-    "description": "Regular",
-    "": "Creamy yogurt flavored soju with a smooth texture and mildly tangy sweetness."
+    "type": "regular",
+    "description": "Creamy yogurt flavored soju with a smooth texture and mildly tangy sweetness."
   },
   {
     "id": 1016,
@@ -9991,8 +9991,8 @@
     "image": "images/soju/soju-imgs/1016.webp",
     "name": "Jeonju Lychee",
     "price": 650,
-    "description": "Regular",
-    "": "Lychee infused soju with floral sweetness, delicate aroma, and refreshing finish."
+    "type": "regular",
+    "description": "Lychee infused soju with floral sweetness, delicate aroma, and refreshing finish."
   },
   {
     "id": 1017,
@@ -10000,8 +10000,8 @@
     "image": "images/soju/soju-imgs/1017.webp",
     "name": "Lotte Chum Churum",
     "price": 825,
-    "description": "Imported",
-    "": "Popular Korean imported soju known for its clean taste, smooth texture, and balanced mild sweetness."
+    "type": "imported",
+    "description": "Popular Korean imported soju known for its clean taste, smooth texture, and balanced mild sweetness."
   },
   {
     "id": 1018,
@@ -10009,8 +10009,8 @@
     "image": "images/soju/soju-imgs/1018.webp",
     "name": "Andong Traditional Rice Soju – Green Apple",
     "price": 885,
-    "description": "Imported",
-    "": "Traditional Korean rice spirit infused with green apple flavor, offering crisp fruitiness with a smooth finish."
+    "type": "imported",
+    "description": "Traditional Korean rice spirit infused with green apple flavor, offering crisp fruitiness with a smooth finish."
   },
   {
     "id": 1019,
@@ -10950,6 +10950,7 @@
     "name": "Camikara",
     "type": "dark",
     "price": 0,
+    "image":"images/rum/rum-imgs/1115.webp",
     "description": "India’s first pure cane juice rum, crafted from fresh sugarcane juice and aged in oak barrels. It offers a rich and smooth profile with notes of caramel, vanilla, dried fruits, and warm spice, delivering a refined and complex sipping experience. 🥃"
   }
 ]
